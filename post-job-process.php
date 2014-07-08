@@ -44,11 +44,10 @@ $email_body = $email_body . "Skills Needed: " . $SkillsNeeded .  "\n";
 // 	header('location: formerror.php?e='.urlencode($error)); exit;
 // }
  
+$headers = "From: " . $email;
 
- 
 
-
-mail ('luke@sodiumhalogen.com', 'Quote Form', $email_body);
+mail ('luke@sodiumhalogen.com', 'Quote Form', $email_body, $headers);
 
 
 
