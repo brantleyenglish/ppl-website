@@ -1,0 +1,77 @@
+#jPanelMenu-menu {
+    background: none repeat scroll 0 0 #3B3B3B;
+}
+#jPanelMenu-menu ul {
+    border-bottom: 1px solid #484848;
+}
+#jPanelMenu-menu li a {
+    background: -moz-linear-gradient(center top , #3E3E3E, #383838) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-bottom: 1px solid #2E2E2E;
+    border-top: 1px solid #484848;
+    color: #F7F7F7;
+    display: block;
+    font-weight: 700;
+    padding: 0.5em 5%;
+    text-decoration: none;
+    text-shadow: 0 -1px 2px #222222;
+}
+#jPanelMenu-menu li a:hover, #jPanelMenu-menu li a:focus {
+    background: -moz-linear-gradient(center top , #484848, #383838) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+#jPanelMenu-menu li a:active {
+    background: -moz-linear-gradient(center top , #3E3E3E, #2E2E2E) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-top-color: #222222;
+    box-shadow: 0 2px 7px #222222 inset;
+    padding-bottom: 0.45em;
+    padding-top: 0.55em;
+}
+.jPanelMenu-panel {
+    box-shadow: 0 0 25px #222222;
+    background: none !important;
+}
+#jPanelMenu-menu ul li ul li a {
+	padding-left: 40px;
+}
+#mobile_form {
+	text-align: center;
+	padding: 30px;
+}
+#mobile_form .search-input {
+	width: 90%;
+}
+#mobile_menu {
+  display: none;
+}
+.menu-trigger {
+  background: url(../_img/pancake2.png) top left no-repeat;
+  text-indent: -9999em;
+  height: 50px;
+  width: 50px;
+  float: right;
+  display: none;
+  position: absolute;
+}
+
+@media screen and (min-width: 660px) and (max-width: 768px) {
+  .menu-trigger {
+    display: block;
+    right: 10px;
+    bottom: 5px
+  }
+  .action,
+  #menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 659px) {
+  .menu-trigger {
+    display: block;
+    right: 10px;
+    bottom: 7px
+  }
+  .action,
+  #menu {
+    display: none;
+  }
+}
