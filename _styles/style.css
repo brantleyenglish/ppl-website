@@ -2223,10 +2223,10 @@ body.mn {
 .opportunity #door {
   background: url(../_img/door.png) top left no-repeat;
   position: absolute;
-  left: -172px;
+  left: -346px;
   top: 15px;
   background-size: cover;
-  width: 180px;
+  width: 362px;
   height: 459px;
 }
 @media only screen and (max-width: 768px) {
@@ -3065,8 +3065,8 @@ aside .button {
 }
 .imgwrap {
   float: right;
-padding-left: 22px;
-padding-bottom: 22px;
+  padding-left: 22px;
+  padding-bottom: 22px;
 }
 .loc {
   width: 100%;
