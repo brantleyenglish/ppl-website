@@ -75,28 +75,28 @@ $(document).ready(function(){
 	});
 
 
-	// var jPM = $.jPanelMenu({
-	//     menu: '#mobile_menu',
-	//     direction: 'right'
-	// });		
+	var jPM = $.jPanelMenu({
+	    menu: '#mobile_menu',
+	    direction: 'right'
+	});		
 	
-	// jPM.on();
+	jPM.on();
 
 
-	// $(".royalSlider").royalSlider({
-	//     // options go here
-	//     // as an example, enable keyboard arrows nav
-	//     keyboardNavEnabled: true,
-	//     loop: true,
-	//     randomizeSlides: true,
-	//     transitionSpeed: 1000,
-	//     autoPlay: {
- //    		// autoplay options go gere
- //    		enabled: true,
- //    		pauseOnHover: true,
- //    		delay: 4500
- //    	}
-	// });  
+	$(".royalSlider").royalSlider({
+	    // options go here
+	    // as an example, enable keyboard arrows nav
+	    keyboardNavEnabled: true,
+	    loop: true,
+	    randomizeSlides: true,
+	    transitionSpeed: 1000,
+	    autoPlay: {
+    		// autoplay options go gere
+    		enabled: true,
+    		pauseOnHover: true,
+    		delay: 4500
+    	}
+	});  
 	
 	
 	// // DESKTOP ANIMATIONS
