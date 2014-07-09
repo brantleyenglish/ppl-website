@@ -893,12 +893,14 @@ body.mn{
         }
 
         @media @tiny-landscape{
-            display: none;
+            left: -1280px;
         }
 		
 		@media @tiny {
-			left: -800px;
-			top: 150px;
+            left: -1520px;
+            width: 1620px;
+            height: 80px;
+            background-position: top right;
 		}
     }
     
@@ -918,13 +920,15 @@ body.mn{
         }
 
         @media @tiny-landscape{
-            display: none;
+            left: -1220px;
         }
-		
-		@media @tiny {
-			left: -890px;
-			top: 185px;
-		}
+        
+        @media @tiny {
+            left: -1520px;
+            width: 1590px;
+            height: 80px;
+            background-position: top right;
+        }
     }
     
     #l_arm3 {
@@ -943,13 +947,16 @@ body.mn{
         }
 
         @media @tiny-landscape{
-            display: none;
+            left: -1300px;
         }
-		
-		@media @tiny {
-			left: -800px;
-			top: 242px;
-		}
+        
+        @media @tiny {
+            left: -1420px;
+            width: 1520px;
+            height: 80px;
+            background-position: top right;
+            top: 120px;
+        }
     }
     
     #r_arm1 {
@@ -968,13 +975,16 @@ body.mn{
         }
 
         @media @tiny-landscape{
-            display: none;
+            right: -1420px;
         }
-		
-		@media @tiny {
-			right: -800px;
-			top: 150px;
-		}
+        
+        @media @tiny {
+            right: -1420px;
+            width: 1520px;
+            height: 80px;
+            background-position: top left;
+            top: 120px;
+        }
     }
     
     #r_arm2 {
@@ -993,13 +1003,15 @@ body.mn{
         }
 
         @media @tiny-landscape{
-            display: none;
+            right: -1460px;
         }
-		
-		@media @tiny {
-			right: -880px;
-			top: 185px;
-		}
+        
+        @media @tiny {
+            right: -1470px;
+            width: 1520px;
+            height: 80px;
+            background-position: top left;
+        }
     }
     
     #r_arm3 {
@@ -1018,13 +1030,16 @@ body.mn{
 		}
 
         @media @tiny-landscape{
-            display: none;
+            right: -1420px;
         }
-		
-		@media @tiny {
-			right: -800px;
-			top: 242px;
-		}
+        
+        @media @tiny {
+            top: 220px;
+            right: -1420px;
+            width: 1520px;
+            height: 80px;
+            background-position: top left;
+        }
     }
 }
 
@@ -1250,13 +1265,17 @@ body.mn{
         
         }
         @media @tiny-landscape {
-            display: none;
+            height: 80px;
+            left: -90px;
+            background-position: top right;
+            background-size: contain;
         }
 		
 		@media @tiny {
 			height: 65px;
 			top: 180px;
 			width: 75px;
+            left:0;
 		}
 	}
 	
@@ -1768,7 +1787,7 @@ display: inline-block;
 
 .homepost {
 	min-height: 628px;
-    background: url(../_img/home_ill3_alt.jpg) center center no-repeat #59C3D0;
+    background: #59C3D0 url(../_img/home_ill3_alt.jpg) bottom center no-repeat;
     background-color: @aqua;
     padding: 65px 0px;
     
@@ -1811,8 +1830,8 @@ display: inline-block;
     @media @tiny {
     	height: auto;
     	min-height: 100px;
-    	overflow: visible;
-	    background: url(../_img/home_ill3_alt.jpg) center 170px no-repeat @aqua;
+    	overflow: hidden;
+	    background: url(../_img/home_ill3_alt.jpg) bottom center no-repeat @aqua;
 	    background-size: 390%;
 	    padding: 20px 0 45px 0;
     }

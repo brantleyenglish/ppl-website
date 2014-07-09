@@ -1847,13 +1847,15 @@ body.mn {
 }
 @media only screen and (max-width: 568px) {
   .apply #l_arm1 {
-    display: none;
+    left: -1280px;
   }
 }
 @media only screen and (max-width: 460px) {
   .apply #l_arm1 {
-    left: -800px;
-    top: 150px;
+    left: -1520px;
+    width: 1620px;
+    height: 80px;
+    background-position: top right;
   }
 }
 .apply #l_arm2 {
@@ -1875,13 +1877,15 @@ body.mn {
 }
 @media only screen and (max-width: 568px) {
   .apply #l_arm2 {
-    display: none;
+    left: -1220px;
   }
 }
 @media only screen and (max-width: 460px) {
   .apply #l_arm2 {
-    left: -890px;
-    top: 185px;
+    left: -1520px;
+    width: 1590px;
+    height: 80px;
+    background-position: top right;
   }
 }
 .apply #l_arm3 {
@@ -1903,13 +1907,16 @@ body.mn {
 }
 @media only screen and (max-width: 568px) {
   .apply #l_arm3 {
-    display: none;
+    left: -1300px;
   }
 }
 @media only screen and (max-width: 460px) {
   .apply #l_arm3 {
-    left: -800px;
-    top: 242px;
+    left: -1420px;
+    width: 1520px;
+    height: 80px;
+    background-position: top right;
+    top: 120px;
   }
 }
 .apply #r_arm1 {
@@ -1931,13 +1938,16 @@ body.mn {
 }
 @media only screen and (max-width: 568px) {
   .apply #r_arm1 {
-    display: none;
+    right: -1420px;
   }
 }
 @media only screen and (max-width: 460px) {
   .apply #r_arm1 {
-    right: -800px;
-    top: 150px;
+    right: -1420px;
+    width: 1520px;
+    height: 80px;
+    background-position: top left;
+    top: 120px;
   }
 }
 .apply #r_arm2 {
@@ -1959,13 +1969,15 @@ body.mn {
 }
 @media only screen and (max-width: 568px) {
   .apply #r_arm2 {
-    display: none;
+    right: -1460px;
   }
 }
 @media only screen and (max-width: 460px) {
   .apply #r_arm2 {
-    right: -880px;
-    top: 185px;
+    right: -1470px;
+    width: 1520px;
+    height: 80px;
+    background-position: top left;
   }
 }
 .apply #r_arm3 {
@@ -1987,13 +1999,16 @@ body.mn {
 }
 @media only screen and (max-width: 568px) {
   .apply #r_arm3 {
-    display: none;
+    right: -1420px;
   }
 }
 @media only screen and (max-width: 460px) {
   .apply #r_arm3 {
-    right: -800px;
-    top: 242px;
+    top: 220px;
+    right: -1420px;
+    width: 1520px;
+    height: 80px;
+    background-position: top left;
   }
 }
 .linkedin:hover {
@@ -2210,7 +2225,10 @@ body.mn {
 }
 @media only screen and (max-width: 568px) {
   .opportunity #letter {
-    display: none;
+    height: 80px;
+    left: -90px;
+    background-position: top right;
+    background-size: contain;
   }
 }
 @media only screen and (max-width: 460px) {
@@ -2218,6 +2236,7 @@ body.mn {
     height: 65px;
     top: 180px;
     width: 75px;
+    left: 0;
   }
 }
 .opportunity #door {
@@ -2694,7 +2713,7 @@ body.mn {
 }
 .homepost {
   min-height: 628px;
-  background: url(../_img/home_ill3_alt.jpg) center center no-repeat #59c3d0;
+  background: #59c3d0 url(../_img/home_ill3_alt.jpg) bottom center no-repeat;
   background-color: #59c3cf;
   padding: 65px 0px;
 }
@@ -2737,8 +2756,8 @@ body.mn {
   .homepost {
     height: auto;
     min-height: 100px;
-    overflow: visible;
-    background: url(../_img/home_ill3_alt.jpg) center 170px no-repeat #59c3cf;
+    overflow: hidden;
+    background: url(../_img/home_ill3_alt.jpg) bottom center no-repeat #59c3cf;
     background-size: 390%;
     padding: 20px 0 45px 0;
   }
@@ -3065,8 +3084,8 @@ aside .button {
 }
 .imgwrap {
   float: right;
-padding-left: 22px;
-padding-bottom: 22px;
+  padding-left: 22px;
+  padding-bottom: 22px;
 }
 .loc {
   width: 100%;
