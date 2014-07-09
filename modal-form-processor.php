@@ -13,6 +13,7 @@ error_reporting(-1);
  $email_body = $email_body . "Phone: " . $phone . "\n";
  $email_body = $email_body . "E-mail: " . $email . "\n";
  $email_body = $email_body . "Message: " . $message .  "\n";
+	$headers = "From: " . $email;
 
  if(empty($firstName)){
  	$error = "You must enter your first name.";
@@ -35,10 +36,9 @@ if(isset($error)){
 }
  
 
-$headers = "PPL Contact Form:" . $firstName;
 
 
-mail ('amy@pplstaffing.com', 'PPL Contact', $email_body, $headers);
+mail ('luke@sodiumhalogen.com', 'PPL Contact', $email_body, $headers);
 
 
 

@@ -478,7 +478,11 @@ input[type="submit"] {
         color: #fff;
     }
 }
-
+body{
+    overflow-y: scroll;
+overflow-x: hidden; 
+-webkit-overflow-scrolling: touch;
+}
 .menu{
     position: relative;
     font-size: 15px;
@@ -1140,6 +1144,7 @@ body.mn{
       background: #2b77c3;
       color: white;
       padding-bottom: 12px;
+      height: 130px;
     }
     .invisible{
         display:none;
@@ -1345,6 +1350,10 @@ body.mn{
     background: #59C3D0;
     padding: 65px 0px;
     
+    .socialrow{
+        padding-top: 1em;
+        padding-bottom: .5em;
+    }
     .socialrollover{
         display: block;
         background: url(../_img/job-boards/jb-sprite.png) no-repeat;
@@ -2145,14 +2154,28 @@ aside {
 .sept {
 	margin: 0 3.8%;
 }
-
+.service{
+    .accordion{
+        border-bottom: solid 1px;
+        border-color: @yellow;
+        }
+        h2{
+            color: @yellow;
+        }
+}
+.imgwrap{
+   float: right;
+padding-left: 22px;
+padding-bottom: 22px;
+}
 .loc {
 	width: 100%;
 	// float: left;
 	border-bottom: 1px solid #aaaba8;
 	margin-bottom: 40px;
 	padding-bottom: 40px;
-    padding-top: 12px;
+    padding-top: 40px;
+    
 	
 	.seven-col {
 		text-align: center;
@@ -2180,14 +2203,26 @@ aside {
 	h2 {
 		padding: 0px;
 	}
+    a{
+        color: @yellow;
+    }
 	
 	.services {
 		margin-top: 20px;
+       
 	}
 	
 	.cli_img1 {
 		margin-right: 4%;
 	}
+}
+.loc-first{
+    width: 100%;
+    // float: left;
+    border-bottom: 1px solid #aaaba8;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    padding-top: 0px;
 }
 
 figure{
@@ -2727,6 +2762,10 @@ a {
     dt{
         border-top: solid 1px;
         border-color: @yellow;
+        &:last-child{
+            border-bottom: solid 1px;
+        border-color: @yellow;
+        }
     }
     dl{
         border-bottom: solid 1px;
@@ -2742,6 +2781,9 @@ a {
     h1{
         text-align: center;
         color: #fff;
+    }
+    ul{
+        list-style: initial;
     }
     .accordion{
         padding-top: 24px;
@@ -2765,6 +2807,11 @@ a {
     dt{
         border-top: solid 1px;
         border-color: @yellow;
+        a{
+            background-image: url('../_img/dwn.png');
+            background-repeat: no-repeat;
+            background-position: right center;
+        }
     }
     dl{
         border-bottom: solid 1px;
