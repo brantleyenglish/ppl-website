@@ -552,6 +552,34 @@ input[type="submit"] {
     }
 }
 
+body.mn{
+    .shadow(0 0 15px rgba(0,0,0,.7));
+}
+
+#mobile_menu{
+    position: fixed;
+    display: block !important;
+    top:0;
+    right:-240px;
+    bottom: 0;
+    width: 240px;
+    background: #3B3B3B;
+
+    ul{
+        border-bottom: 1px solid #484848;
+    }
+
+    a{
+        display: block;
+        color: #fff;
+        line-height: 46px;
+        font-weight: bold;
+        border-top: 1px solid #484848;
+        border-bottom: 1px solid #2E2E2E;
+        padding-left: 20px;
+    }
+}
+
 .header.home{
     position: relative;
     margin-top: -96px;
@@ -808,7 +836,7 @@ input[type="submit"] {
     @media @mobile {
     	width: 100%;
     	height: auto;
-    	overflow: visible;
+    	/*overflow: visible; //topher*/
     	padding: 30px 0px;
 	    background: url(../_img/home_ill1_alt.jpg) center center no-repeat #F3F3F1;
 	    background-size: 200%;
@@ -832,6 +860,11 @@ input[type="submit"] {
     	width: 1620px;
     	height: 150px;
     	position: absolute;
+        opacity: 0;
+
+        &.bounceInLeft, &.bounceInRight{
+            opacity: 1;
+        }
     	
     	@media @tiny {
     		height: 75px;
@@ -842,12 +875,22 @@ input[type="submit"] {
     
     #l_arm1 {
 		background: url(../_img/l_arm1.png) top left no-repeat;
-		left: -1800px;
+		/*left: -1800px; // topher*/
+        left: -995px;
 		top: 123px;
-		
-		@media @mobile {
-			top: 223px;
-		}
+        
+        @media @largeish {
+            left: -1200px;
+        }
+        
+        @media @mobile {
+            top: 223px;
+            left: -1200px;
+        }
+
+        @media @tiny-landscape{
+            display: none;
+        }
 		
 		@media @tiny {
 			left: -800px;
@@ -857,12 +900,22 @@ input[type="submit"] {
     
     #l_arm2 {
 		background: url(../_img/l_arm2.png) top left no-repeat;
-		left: -1890px;
+		/*left: -1890px; //topher */
+        left: -1070px;
 		top: 185px;
-		
-		@media @mobile {
-			top: 285px;
-		}
+        
+        @media @largeish {
+            left: -1250px;
+        }
+        
+        @media @mobile {
+            top: 285px;
+            left: -1250px;
+        }
+
+        @media @tiny-landscape{
+            display: none;
+        }
 		
 		@media @tiny {
 			left: -890px;
@@ -872,12 +925,22 @@ input[type="submit"] {
     
     #l_arm3 {
 		background: url(../_img/l_arm3.png) top left no-repeat;
-		left: -1810px;
+		/*left: -1810px; // topher*/
+        left: -970px;
 		top: 308px;
-		
-		@media @mobile {
-			top: 408px;
-		}
+        
+        @media @largeish {
+            left: -1150px;
+        }
+        
+        @media @mobile {
+            top: 408px;
+            left: -1150px;
+        }
+
+        @media @tiny-landscape{
+            display: none;
+        }
 		
 		@media @tiny {
 			left: -800px;
@@ -887,12 +950,22 @@ input[type="submit"] {
     
     #r_arm1 {
 		background: url(../_img/r_arm1.png) top left no-repeat;
-		right: -2070px;
+		/*right: -2070px; // topher*/
+        right: -1200px;
 		top: 100px;
-		
-		@media @mobile {
-			top: 200px;
-		}
+        
+        @media @largeish {
+            right: -1400px;
+        }
+        
+        @media @mobile {
+            top: 200px;
+            right: -1400px;
+        }
+
+        @media @tiny-landscape{
+            display: none;
+        }
 		
 		@media @tiny {
 			right: -800px;
@@ -902,12 +975,22 @@ input[type="submit"] {
     
     #r_arm2 {
 		background: url(../_img/r_arm2.png) top left no-repeat;
-		right: -2150px;
+		/*right: -2150px; // topher */
+        right: -1300px;
 		top: 164px;
-		
-		@media @mobile {
-			top: 264px;
-		}
+        
+        @media @largeish {
+            right: -1450px;
+        }
+        
+        @media @mobile {
+            top: 264px;
+            right: -1450px;
+        }
+
+        @media @tiny-landscape{
+            display: none;
+        }
 		
 		@media @tiny {
 			right: -880px;
@@ -917,12 +1000,22 @@ input[type="submit"] {
     
     #r_arm3 {
 		background: url(../_img/r_arm3.png) top left no-repeat;
-		right: -2090px;
+		/*right: -2090px; // topher*/
+        right: -1230px;
 		top: 292px;
+        
+        @media @largeish {
+            right: -1450px;
+        }
 		
 		@media @mobile {
 			top: 392px;
+            right: -1350px;
 		}
+
+        @media @tiny-landscape{
+            display: none;
+        }
 		
 		@media @tiny {
 			right: -800px;
@@ -1694,7 +1787,7 @@ display: inline-block;
     	width: 100%;
     	min-height: 595px;
     	background-size: 370%;
-    	background-position: -220 150px;
+    	background-position: bottom center;
     	padding: 20px 0;
     }
     
@@ -1711,14 +1804,21 @@ display: inline-block;
 		background: url(../_img/arm.png) top left no-repeat;
 		position: absolute;
 		left: 52%;
-		bottom: -350px;
+		bottom: -15px;
 		background-size: cover;
 		width: 90px;
 		height: 540px;
-		
-		@media @mobile {
-		
-		}
+
+        &.bounceInUp{
+        }
+        
+        @media @largeish {
+            bottom: -200px;        
+        }
+        
+        @media @mobile {
+            bottom: -200px;         
+        }
 		
 		@media @tiny {
 			bottom: 0px;
