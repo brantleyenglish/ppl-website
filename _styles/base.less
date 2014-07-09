@@ -1226,19 +1226,27 @@ body.mn{
 	    background-size: 200%;
 	    padding: 25px 0;
     }
-    
+
 	#letter {
 		background: url(../_img/arm_letter.png) top left no-repeat;
 		position: absolute;
-		left: -160px;
+		left: -14px;
 		top: 160px;
 		background-size: cover;
 		width: 143px;
 		height: 124px;
+        opacity: 0;
+
+        &.bounceInLeft{
+            opacity: 1;
+        }
 		
-		@media @mobile {
-		
-		}
+        @media @mobile {
+        
+        }
+        @media @tiny-landscape {
+            display: none;
+        }
 		
 		@media @tiny {
 			height: 65px;
@@ -1808,8 +1816,10 @@ display: inline-block;
 		background-size: cover;
 		width: 90px;
 		height: 540px;
+        opacity: 0;
 
         &.bounceInUp{
+            opacity: 1
         }
         
         @media @largeish {
@@ -1844,6 +1854,10 @@ display: inline-block;
     	color: @lightgray;
     	text-transform: uppercase;
     	text-align: center;
+
+        &.bounceInLeft{
+            opacity: 1;
+        }
     	
     	p {
     		width: 250px;
@@ -1861,7 +1875,7 @@ display: inline-block;
     	margin-bottom: 30px;
     	padding: 23px 76px 49px 76px;
     	width: 2000px;
-    	left: 1300px;
+    	left: 90px;
     	
 		span {
 			color: @aqua;
@@ -1881,7 +1895,7 @@ display: inline-block;
     .stats2 {
     	padding: 36px 64px 36px 64px;
     	width: 2000px;
-    	left: 1300px;
+    	left: 0px;
     	
 		span {
 			color: @yellow;

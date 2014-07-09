@@ -56,6 +56,22 @@ $(document).ready(function(){
 	        $("#arm").addClass('bounceInUp');
 	    }
 
+	    if ($(window).scrollTop() > 400) {
+	        $("#arm2").addClass('bounceInUp');
+	    }
+
+	    if ($(window).scrollTop() > 1300) {
+	        $("#letter").addClass('bounceInLeft');
+	    }
+
+	    if ($(window).scrollTop() > 570) {
+	        $(".stats1").addClass('bounceInLeft');
+	    }
+
+	    if ($(window).scrollTop() > 660) {
+	        $(".stats2").addClass('bounceInLeft');
+	    }	    
+
 	});
 
 

@@ -2192,11 +2192,20 @@ body.mn {
 .opportunity #letter {
   background: url(../_img/arm_letter.png) top left no-repeat;
   position: absolute;
-  left: -160px;
+  left: -14px;
   top: 160px;
   background-size: cover;
   width: 143px;
   height: 124px;
+  opacity: 0;
+}
+.opportunity #letter.bounceInLeft {
+  opacity: 1;
+}
+@media only screen and (max-width: 568px) {
+  .opportunity #letter {
+    display: none;
+  }
 }
 @media only screen and (max-width: 460px) {
   .opportunity #letter {
@@ -2733,6 +2742,11 @@ body.mn {
   background-size: cover;
   width: 90px;
   height: 540px;
+  opacity: 0;
+}
+.homepost #arm.bounceInUp,
+.homepost #arm2.bounceInUp {
+  opacity: 1;
 }
 @media only screen and (min-width: 769px) and (max-width: 1028px) {
   .homepost #arm,
@@ -2773,6 +2787,10 @@ body.mn {
   text-transform: uppercase;
   text-align: center;
 }
+.results .stats1.bounceInLeft,
+.results .stats2.bounceInLeft {
+  opacity: 1;
+}
 .results .stats1 p,
 .results .stats2 p {
   width: 250px;
@@ -2789,7 +2807,7 @@ body.mn {
   margin-bottom: 30px;
   padding: 23px 76px 49px 76px;
   width: 2000px;
-  left: 1300px;
+  left: 90px;
 }
 .results .stats1 span {
   color: #59c3cf;
@@ -2809,7 +2827,7 @@ body.mn {
 .results .stats2 {
   padding: 36px 64px 36px 64px;
   width: 2000px;
-  left: 1300px;
+  left: 0px;
 }
 .results .stats2 span {
   color: #f9c854;
