@@ -1104,28 +1104,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_img\/employees\/employers_hero.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 679096,
-		"inputAbbreviatedPath": "\/_img\/employees\/employers_hero.jpg",
-		"outputAbbreviatedPath": "\/_img\/employees\/employers_hero.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/_img\/employees\/hero.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 234596,
-		"inputAbbreviatedPath": "\/_img\/employees\/hero.jpg",
-		"outputAbbreviatedPath": "\/_img\/employees\/hero.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_img\/employees\/jennifer.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2027,17 +2005,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_scripts\/jscroll.js",
 		"outputAbbreviatedPath": "\/_scripts\/min\/jscroll-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_scripts\/min\/jquery.sticky-kit.min-ck.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_scripts\/min\/jquery.sticky-kit.min-ck.js",
-		"outputAbbreviatedPath": "\/_scripts\/min\/min\/jquery.sticky-kit.min-ck-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

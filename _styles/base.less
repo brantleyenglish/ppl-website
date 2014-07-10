@@ -478,11 +478,7 @@ input[type="submit"] {
         color: #fff;
     }
 }
-body{
-    overflow-y: scroll;
-overflow-x: hidden; 
--webkit-overflow-scrolling: touch;
-}
+
 .menu{
     position: relative;
     font-size: 15px;
@@ -893,14 +889,12 @@ body.mn{
         }
 
         @media @tiny-landscape{
-            left: -1280px;
+            display: none;
         }
 		
 		@media @tiny {
-            left: -1520px;
-            width: 1620px;
-            height: 80px;
-            background-position: top right;
+			left: -800px;
+			top: 150px;
 		}
     }
     
@@ -920,15 +914,13 @@ body.mn{
         }
 
         @media @tiny-landscape{
-            left: -1220px;
+            display: none;
         }
-        
-        @media @tiny {
-            left: -1520px;
-            width: 1590px;
-            height: 80px;
-            background-position: top right;
-        }
+		
+		@media @tiny {
+			left: -890px;
+			top: 185px;
+		}
     }
     
     #l_arm3 {
@@ -947,16 +939,13 @@ body.mn{
         }
 
         @media @tiny-landscape{
-            left: -1300px;
+            display: none;
         }
-        
-        @media @tiny {
-            left: -1420px;
-            width: 1520px;
-            height: 80px;
-            background-position: top right;
-            top: 120px;
-        }
+		
+		@media @tiny {
+			left: -800px;
+			top: 242px;
+		}
     }
     
     #r_arm1 {
@@ -975,16 +964,13 @@ body.mn{
         }
 
         @media @tiny-landscape{
-            right: -1420px;
+            display: none;
         }
-        
-        @media @tiny {
-            right: -1420px;
-            width: 1520px;
-            height: 80px;
-            background-position: top left;
-            top: 120px;
-        }
+		
+		@media @tiny {
+			right: -800px;
+			top: 150px;
+		}
     }
     
     #r_arm2 {
@@ -1003,15 +989,13 @@ body.mn{
         }
 
         @media @tiny-landscape{
-            right: -1460px;
+            display: none;
         }
-        
-        @media @tiny {
-            right: -1470px;
-            width: 1520px;
-            height: 80px;
-            background-position: top left;
-        }
+		
+		@media @tiny {
+			right: -880px;
+			top: 185px;
+		}
     }
     
     #r_arm3 {
@@ -1030,16 +1014,13 @@ body.mn{
 		}
 
         @media @tiny-landscape{
-            right: -1420px;
+            display: none;
         }
-        
-        @media @tiny {
-            top: 220px;
-            right: -1420px;
-            width: 1520px;
-            height: 80px;
-            background-position: top left;
-        }
+		
+		@media @tiny {
+			right: -800px;
+			top: 242px;
+		}
     }
 }
 
@@ -1159,7 +1140,6 @@ body.mn{
       background: #2b77c3;
       color: white;
       padding-bottom: 12px;
-      height: 130px;
     }
     .invisible{
         display:none;
@@ -1246,48 +1226,36 @@ body.mn{
 	    background-size: 200%;
 	    padding: 25px 0;
     }
-
+    
 	#letter {
 		background: url(../_img/arm_letter.png) top left no-repeat;
 		position: absolute;
-		left: -14px;
+		left: -160px;
 		top: 160px;
 		background-size: cover;
 		width: 143px;
 		height: 124px;
-        opacity: 0;
-
-        &.bounceInLeft{
-            opacity: 1;
-        }
 		
-        @media @mobile {
-        
-        }
-        @media @tiny-landscape {
-            height: 80px;
-            left: -90px;
-            background-position: top right;
-            background-size: contain;
-        }
+		@media @mobile {
+		
+		}
 		
 		@media @tiny {
 			height: 65px;
 			top: 180px;
 			width: 75px;
-            left:0;
 		}
 	}
 	
 	#door {
 		background: url(../_img/door.png) top left no-repeat;
 		position: absolute;
-        left: -346px;
-        top: 15px;
-        background-size: cover;
-        width: 362px;
-        height: 459px;
-        		
+		left: -172px;
+		top: 15px;
+		background-size: cover;
+		width: 180px;
+		height: 459px;
+		
 		@media @mobile {
 			height: 370px;
 			left: -130px;
@@ -1369,10 +1337,6 @@ body.mn{
     background: #59C3D0;
     padding: 65px 0px;
     
-    .socialrow{
-        padding-top: 1em;
-        padding-bottom: .5em;
-    }
     .socialrollover{
         display: block;
         background: url(../_img/job-boards/jb-sprite.png) no-repeat;
@@ -1787,7 +1751,7 @@ display: inline-block;
 
 .homepost {
 	min-height: 628px;
-    background: #59C3D0 url(../_img/home_ill3_alt.jpg) bottom center no-repeat;
+    background: url(../_img/home_ill3_alt.jpg) center center no-repeat #59C3D0;
     background-color: @aqua;
     padding: 65px 0px;
     
@@ -1830,8 +1794,8 @@ display: inline-block;
     @media @tiny {
     	height: auto;
     	min-height: 100px;
-    	overflow: hidden;
-	    background: url(../_img/home_ill3_alt.jpg) bottom center no-repeat @aqua;
+    	overflow: visible;
+	    background: url(../_img/home_ill3_alt.jpg) center 170px no-repeat @aqua;
 	    background-size: 390%;
 	    padding: 20px 0 45px 0;
     }
@@ -1844,10 +1808,8 @@ display: inline-block;
 		background-size: cover;
 		width: 90px;
 		height: 540px;
-        opacity: 0;
 
         &.bounceInUp{
-            opacity: 1
         }
         
         @media @largeish {
@@ -1882,10 +1844,6 @@ display: inline-block;
     	color: @lightgray;
     	text-transform: uppercase;
     	text-align: center;
-
-        &.bounceInLeft{
-            opacity: 1;
-        }
     	
     	p {
     		width: 250px;
@@ -1903,7 +1861,7 @@ display: inline-block;
     	margin-bottom: 30px;
     	padding: 23px 76px 49px 76px;
     	width: 2000px;
-    	left: 90px;
+    	left: 1300px;
     	
 		span {
 			color: @aqua;
@@ -1923,7 +1881,7 @@ display: inline-block;
     .stats2 {
     	padding: 36px 64px 36px 64px;
     	width: 2000px;
-    	left: 0px;
+    	left: 1300px;
     	
 		span {
 			color: @yellow;
@@ -2173,28 +2131,14 @@ aside {
 .sept {
 	margin: 0 3.8%;
 }
-.service{
-    .accordion{
-        border-bottom: solid 1px;
-        border-color: @yellow;
-        }
-        h2{
-            color: @yellow;
-        }
-}
-.imgwrap{
-   float: right;
-padding-left: 22px;
-padding-bottom: 22px;
-}
+
 .loc {
 	width: 100%;
 	// float: left;
 	border-bottom: 1px solid #aaaba8;
 	margin-bottom: 40px;
 	padding-bottom: 40px;
-    padding-top: 40px;
-    
+    padding-top: 12px;
 	
 	.seven-col {
 		text-align: center;
@@ -2222,26 +2166,14 @@ padding-bottom: 22px;
 	h2 {
 		padding: 0px;
 	}
-    a{
-        color: @yellow;
-    }
 	
 	.services {
 		margin-top: 20px;
-       
 	}
 	
 	.cli_img1 {
 		margin-right: 4%;
 	}
-}
-.loc-first{
-    width: 100%;
-    // float: left;
-    border-bottom: 1px solid #aaaba8;
-    margin-bottom: 40px;
-    padding-bottom: 40px;
-    padding-top: 0px;
 }
 
 figure{
@@ -2781,10 +2713,6 @@ a {
     dt{
         border-top: solid 1px;
         border-color: @yellow;
-        &:last-child{
-            border-bottom: solid 1px;
-        border-color: @yellow;
-        }
     }
     dl{
         border-bottom: solid 1px;
@@ -2800,9 +2728,6 @@ a {
     h1{
         text-align: center;
         color: #fff;
-    }
-    ul{
-        list-style: initial;
     }
     .accordion{
         padding-top: 24px;
@@ -2826,11 +2751,6 @@ a {
     dt{
         border-top: solid 1px;
         border-color: @yellow;
-        a{
-            background-image: url('../_img/dwn.png');
-            background-repeat: no-repeat;
-            background-position: right center;
-        }
     }
     dl{
         border-bottom: solid 1px;

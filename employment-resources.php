@@ -62,7 +62,7 @@
 <section class="block jobBoards">
     <div class="row">
         <h1>Our Job Boards</h1>
-        <div class="row socialrow">
+        <div class="row">
             <div class="large-3 columns">
                 <a href="http://www.indeed.com/jobs?q=company%3A%28Personnel+Placements%29" class="socialrollover" id="indeed"><span></span></a>
             </div>

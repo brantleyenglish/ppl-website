@@ -1413,11 +1413,6 @@ input[type="submit"] {
   font-size: 13px;
   color: #fff;
 }
-body {
-  overflow-y: scroll;
-  overflow-x: hidden;
-  -webkit-overflow-scrolling: touch;
-}
 .menu {
   position: relative;
   font-size: 15px;
@@ -1847,15 +1842,13 @@ body.mn {
 }
 @media only screen and (max-width: 568px) {
   .apply #l_arm1 {
-    left: -1280px;
+    display: none;
   }
 }
 @media only screen and (max-width: 460px) {
   .apply #l_arm1 {
-    left: -1520px;
-    width: 1620px;
-    height: 80px;
-    background-position: top right;
+    left: -800px;
+    top: 150px;
   }
 }
 .apply #l_arm2 {
@@ -1877,15 +1870,13 @@ body.mn {
 }
 @media only screen and (max-width: 568px) {
   .apply #l_arm2 {
-    left: -1220px;
+    display: none;
   }
 }
 @media only screen and (max-width: 460px) {
   .apply #l_arm2 {
-    left: -1520px;
-    width: 1590px;
-    height: 80px;
-    background-position: top right;
+    left: -890px;
+    top: 185px;
   }
 }
 .apply #l_arm3 {
@@ -1907,16 +1898,13 @@ body.mn {
 }
 @media only screen and (max-width: 568px) {
   .apply #l_arm3 {
-    left: -1300px;
+    display: none;
   }
 }
 @media only screen and (max-width: 460px) {
   .apply #l_arm3 {
-    left: -1420px;
-    width: 1520px;
-    height: 80px;
-    background-position: top right;
-    top: 120px;
+    left: -800px;
+    top: 242px;
   }
 }
 .apply #r_arm1 {
@@ -1938,16 +1926,13 @@ body.mn {
 }
 @media only screen and (max-width: 568px) {
   .apply #r_arm1 {
-    right: -1420px;
+    display: none;
   }
 }
 @media only screen and (max-width: 460px) {
   .apply #r_arm1 {
-    right: -1420px;
-    width: 1520px;
-    height: 80px;
-    background-position: top left;
-    top: 120px;
+    right: -800px;
+    top: 150px;
   }
 }
 .apply #r_arm2 {
@@ -1969,15 +1954,13 @@ body.mn {
 }
 @media only screen and (max-width: 568px) {
   .apply #r_arm2 {
-    right: -1460px;
+    display: none;
   }
 }
 @media only screen and (max-width: 460px) {
   .apply #r_arm2 {
-    right: -1470px;
-    width: 1520px;
-    height: 80px;
-    background-position: top left;
+    right: -880px;
+    top: 185px;
   }
 }
 .apply #r_arm3 {
@@ -1999,16 +1982,13 @@ body.mn {
 }
 @media only screen and (max-width: 568px) {
   .apply #r_arm3 {
-    right: -1420px;
+    display: none;
   }
 }
 @media only screen and (max-width: 460px) {
   .apply #r_arm3 {
-    top: 220px;
-    right: -1420px;
-    width: 1520px;
-    height: 80px;
-    background-position: top left;
+    right: -800px;
+    top: 242px;
   }
 }
 .linkedin:hover {
@@ -2125,7 +2105,6 @@ body.mn {
   background: #2b77c3;
   color: white;
   padding-bottom: 12px;
-  height: 130px;
 }
 .team .invisible {
   display: none;
@@ -2213,39 +2192,26 @@ body.mn {
 .opportunity #letter {
   background: url(../_img/arm_letter.png) top left no-repeat;
   position: absolute;
-  left: -14px;
+  left: -160px;
   top: 160px;
   background-size: cover;
   width: 143px;
   height: 124px;
-  opacity: 0;
-}
-.opportunity #letter.bounceInLeft {
-  opacity: 1;
-}
-@media only screen and (max-width: 568px) {
-  .opportunity #letter {
-    height: 80px;
-    left: -90px;
-    background-position: top right;
-    background-size: contain;
-  }
 }
 @media only screen and (max-width: 460px) {
   .opportunity #letter {
     height: 65px;
     top: 180px;
     width: 75px;
-    left: 0;
   }
 }
 .opportunity #door {
   background: url(../_img/door.png) top left no-repeat;
   position: absolute;
-  left: -346px;
+  left: -172px;
   top: 15px;
   background-size: cover;
-  width: 362px;
+  width: 180px;
   height: 459px;
 }
 @media only screen and (max-width: 768px) {
@@ -2323,10 +2289,6 @@ body.mn {
 .jobBoards {
   background: #59C3D0;
   padding: 65px 0px;
-}
-.jobBoards .socialrow {
-  padding-top: 1em;
-  padding-bottom: .5em;
 }
 .jobBoards .socialrollover {
   display: block;
@@ -2713,7 +2675,7 @@ body.mn {
 }
 .homepost {
   min-height: 628px;
-  background: #59c3d0 url(../_img/home_ill3_alt.jpg) bottom center no-repeat;
+  background: url(../_img/home_ill3_alt.jpg) center center no-repeat #59c3d0;
   background-color: #59c3cf;
   padding: 65px 0px;
 }
@@ -2756,8 +2718,8 @@ body.mn {
   .homepost {
     height: auto;
     min-height: 100px;
-    overflow: hidden;
-    background: url(../_img/home_ill3_alt.jpg) bottom center no-repeat #59c3cf;
+    overflow: visible;
+    background: url(../_img/home_ill3_alt.jpg) center 170px no-repeat #59c3cf;
     background-size: 390%;
     padding: 20px 0 45px 0;
   }
@@ -2771,11 +2733,6 @@ body.mn {
   background-size: cover;
   width: 90px;
   height: 540px;
-  opacity: 0;
-}
-.homepost #arm.bounceInUp,
-.homepost #arm2.bounceInUp {
-  opacity: 1;
 }
 @media only screen and (min-width: 769px) and (max-width: 1028px) {
   .homepost #arm,
@@ -2816,10 +2773,6 @@ body.mn {
   text-transform: uppercase;
   text-align: center;
 }
-.results .stats1.bounceInLeft,
-.results .stats2.bounceInLeft {
-  opacity: 1;
-}
 .results .stats1 p,
 .results .stats2 p {
   width: 250px;
@@ -2836,7 +2789,7 @@ body.mn {
   margin-bottom: 30px;
   padding: 23px 76px 49px 76px;
   width: 2000px;
-  left: 90px;
+  left: 1300px;
 }
 .results .stats1 span {
   color: #59c3cf;
@@ -2856,7 +2809,7 @@ body.mn {
 .results .stats2 {
   padding: 36px 64px 36px 64px;
   width: 2000px;
-  left: 0px;
+  left: 1300px;
 }
 .results .stats2 span {
   color: #f9c854;
@@ -3075,24 +3028,12 @@ aside .button {
 .sept {
   margin: 0 3.8%;
 }
-.service .accordion {
-  border-bottom: solid 1px;
-  border-color: #f9c854;
-}
-.service h2 {
-  color: #f9c854;
-}
-.imgwrap {
-  float: right;
-  padding-left: 22px;
-  padding-bottom: 22px;
-}
 .loc {
   width: 100%;
   border-bottom: 1px solid #aaaba8;
   margin-bottom: 40px;
   padding-bottom: 40px;
-  padding-top: 40px;
+  padding-top: 12px;
 }
 .loc .seven-col {
   text-align: center;
@@ -3113,21 +3054,11 @@ aside .button {
 .loc h2 {
   padding: 0px;
 }
-.loc a {
-  color: #f9c854;
-}
 .loc .services {
   margin-top: 20px;
 }
 .loc .cli_img1 {
   margin-right: 4%;
-}
-.loc-first {
-  width: 100%;
-  border-bottom: 1px solid #aaaba8;
-  margin-bottom: 40px;
-  padding-bottom: 40px;
-  padding-top: 0px;
 }
 figure {
   position: relative;
@@ -3739,10 +3670,6 @@ a {
   border-top: solid 1px;
   border-color: #f9c854;
 }
-.service dt:last-child {
-  border-bottom: solid 1px;
-  border-color: #f9c854;
-}
 .service dl {
   border-bottom: solid 1px;
   border-color: #f9c854;
@@ -3755,9 +3682,6 @@ a {
 .jobSeeker h1 {
   text-align: center;
   color: #fff;
-}
-.jobSeeker ul {
-  list-style: initial;
 }
 .jobSeeker .accordion {
   padding-top: 24px;
@@ -3780,11 +3704,6 @@ a {
 .faq dt {
   border-top: solid 1px;
   border-color: #f9c854;
-}
-.faq dt a {
-  background-image: url('../_img/dwn.png');
-  background-repeat: no-repeat;
-  background-position: right center;
 }
 .faq dl {
   border-bottom: solid 1px;
