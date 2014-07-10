@@ -430,6 +430,11 @@ input[type="submit"] {
 
 
 /* module styles */
+body{
+    overflow-y: scroll;
+    overflow-x: hidden; 
+    -webkit-overflow-scrolling: touch;
+}
 .nav{
     position: relative;
     background:rgba(43, 119, 195, .7);
@@ -909,6 +914,7 @@ body.mn{
             width: 1620px;
             height: 80px;
             background-position: top right;
+            opacity: 1;
 		}
     }
     
@@ -936,6 +942,7 @@ body.mn{
             width: 1590px;
             height: 80px;
             background-position: top right;
+            opacity: 1;
         }
     }
     
@@ -964,6 +971,7 @@ body.mn{
             height: 80px;
             background-position: top right;
             top: 120px;
+            opacity: 1;
         }
     }
     
@@ -992,6 +1000,7 @@ body.mn{
             height: 80px;
             background-position: top left;
             top: 120px;
+            opacity: 1;
         }
     }
     
@@ -1019,6 +1028,7 @@ body.mn{
             width: 1520px;
             height: 80px;
             background-position: top left;
+            opacity: 1;
         }
     }
     
@@ -1047,6 +1057,7 @@ body.mn{
             width: 1520px;
             height: 80px;
             background-position: top left;
+            opacity: 1;
         }
     }
 }
@@ -1284,6 +1295,7 @@ body.mn{
 			top: 180px;
 			width: 75px;
             left:0;
+            opacity: 1;
 		}
 	}
 	
@@ -1868,8 +1880,9 @@ display: inline-block;
 		
 		@media @tiny {
 			bottom: 0px;
-			height: 250px;
-			width: 40px;
+			height: 520px;
+            width: 90px;
+            opacity: 1;
 		}
 	}
 }

@@ -1,86 +1,88 @@
 $(document).ready(function(){
 
-	var mmo = false;
-	$('a.menu-trigger').click(function(){
+	// var mmo = false;
+	// $('a.menu-trigger').click(function(){
 
-		if(!mmo){
-			$('body').addClass('mn');
+	// 	if(!mmo){
+	// 		$('body').addClass('mn');
 
-			$('body').animate({
-				marginRight: 260,
-				marginLeft: -260
-			});
+	// 		$('body').animate({
+	// 			marginRight: 260,
+	// 			marginLeft: -260
+	// 		});
 
-			$('#mobile_menu').animate({
-				right: 0
-			});
+	// 		$('#mobile_menu').animate({
+	// 			right: 0
+	// 		});
 
-			mmo = true;
-		} else {
-			$('body').animate({
-				marginRight: 0,
-				marginLeft: -0
-			});
+	// 		mmo = true;
+	// 	} else {
+	// 		$('body').animate({
+	// 			marginRight: 0,
+	// 			marginLeft: -0
+	// 		});
 
-			$('#mobile_menu').animate({
-				right: -260
-			});
+	// 		$('#mobile_menu').animate({
+	// 			right: -260
+	// 		});
 
-			$('body').removeClass('mn');
+	// 		$('body').removeClass('mn');
 
-			mmo = false;
-		}
+	// 		mmo = false;
+	// 	}
 
-		return false;
-	});
-
+	// 	return false;
+	// });
+	 
 	$(document).scroll(function() {
-		if ($(window).scrollTop() > 400) {
-	        $('#l_arm1').addClass('bounceInLeft').delay(120).queue(function(next){
-			    $('#l_arm2').addClass('bounceInLeft').delay(120).queue(function(next){
-				    $('#l_arm3').addClass('bounceInLeft');
+		if ( $(this).width() > 600 ) {
+			if ($(window).scrollTop() > 400) {
+		        $('#l_arm1').addClass('bounceInLeft').delay(120).queue(function(next){
+				    $('#l_arm2').addClass('bounceInLeft').delay(120).queue(function(next){
+					    $('#l_arm3').addClass('bounceInLeft');
+					    next();
+					});
 				    next();
 				});
-			    next();
-			});
-			$('#r_arm1').addClass('bounceInRight').delay(30).queue(function(next){
-			    $('#r_arm2').addClass('bounceInRight').delay(140).queue(function(next){
-				    $('#r_arm3').addClass('bounceInRight');
+				$('#r_arm1').addClass('bounceInRight').delay(30).queue(function(next){
+				    $('#r_arm2').addClass('bounceInRight').delay(140).queue(function(next){
+					    $('#r_arm3').addClass('bounceInRight');
+					    next();
+					});
 				    next();
 				});
-			    next();
-			});
-	    }
+		    }
 
-	    if ($(window).scrollTop() > 2100) {
-	        $("#arm").addClass('bounceInUp');
-	    }
+		    if ($(window).scrollTop() > 2100) {
+		        $("#arm").addClass('bounceInUp');
+		    }
 
-	    if ($(window).scrollTop() > 400) {
-	        $("#arm2").addClass('bounceInUp');
-	    }
+		    if ($(window).scrollTop() > 400) {
+		        $("#arm2").addClass('bounceInUp');
+		    }
 
-	    if ($(window).scrollTop() > 1300) {
-	        $("#letter").addClass('bounceInLeft');
-	    }
+		    if ($(window).scrollTop() > 1300) {
+		        $("#letter").addClass('bounceInLeft');
+		    }
 
-	    if ($(window).scrollTop() > 570) {
-	        $(".stats1").addClass('bounceInLeft');
-	    }
+		    if ($(window).scrollTop() > 570) {
+		        $(".stats1").addClass('bounceInLeft');
+		    }
 
-	    if ($(window).scrollTop() > 660) {
-	        $(".stats2").addClass('bounceInLeft');
-	    }	    
-
+		    if ($(window).scrollTop() > 660) {
+		        $(".stats2").addClass('bounceInLeft');
+		    }	    
+		}
 	});
-
-
-	var jPM = $.jPanelMenu({
-	    menu: '#mobile_menu',
-	    direction: 'right'
-	});		
 	
-	jPM.on();
+
+
+	// var jPM = $.jPanelMenu({
+	//     menu: '#mobile_menu',
+	//     direction: 'right'
+	// });		
+	
+	// jPM.on();
 
 
 	$(".royalSlider").royalSlider({
