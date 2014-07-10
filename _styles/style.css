@@ -2299,7 +2299,7 @@ body.mn {
 .employment p {
   font-family: "ff-tisa-web-pro", Helvetica, Arial, sans-serif;
   text-align: center;
-  padding-bottom: 40px;
+  padding: 0px 20px 40px 20px;
 }
 .benefits {
   border-top: 1px solid;
@@ -2456,7 +2456,7 @@ body.mn {
   color: transparent;
   background-position: 0px -143px;
   height: 58px;
-  margin: -10px auto 0px auto;
+  margin: -10px auto 30px auto;
 }
 #indeed span {
   position: absolute;
@@ -2486,7 +2486,7 @@ body.mn {
   color: transparent;
   height: 50px;
   background-position: 0px -40px;
-  margin: 0px auto 0px auto;
+  margin: 0px auto 30px auto;
 }
 #facebook span {
   position: absolute;
@@ -2515,7 +2515,7 @@ body.mn {
   color: transparent;
   background-position: 0px -90px;
   height: 50px;
-  margin: 0px auto 0px auto;
+  margin: 0px auto 30px auto;
 }
 #linkedin span {
   position: absolute;
@@ -2543,7 +2543,7 @@ body.mn {
   width: 200px;
   color: transparent;
   height: 50px;
-  margin: 0px auto 0px auto;
+  margin: 0px auto 30px auto;
 }
 #careerbuilder span {
   position: absolute;
