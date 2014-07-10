@@ -4,13 +4,13 @@
 <script type="text/javascript" src="_scripts/jquery.jpanelmenu.min.js"></script>
 <script type="text/javascript" src="_scripts/jquery.royalslider.min.js"></script>
 <script type="text/javascript" src="_scripts/enquire.js"></script>
-<script type="text/javascript" src="_scripts/script.js"></script>
+<script type="text/javascript" src="_scripts/script.js" media="screen and (min-width: 600px)"></script>
 
 <script src="_scripts/jquery.sticky-kit.min.js"></script>
 <script>$("aside").stick_in_parent({offset_top: 20})</script>
 
 <script type="text/javascript">
-<!--
+	if ( $(window).width() > 600 ) {
     function toggle_visibility(id) {
        var e = document.getElementById(id);
        if(e.style.display == 'block')
@@ -19,5 +19,6 @@
           e.style.display = 'block';
       
     }
-//-->
+}
+
 </script>

@@ -1503,17 +1503,12 @@ body.mn {
   right: -240px;
   bottom: 0;
   width: 240px;
-  background: #3B3B3B;
-}
-#mobile_menu ul {
-  border-bottom: 1px solid #484848;
+  background: #fff;
 }
 #mobile_menu a {
   display: block;
-  color: #fff;
   line-height: 46px;
   font-weight: bold;
-  border-top: 1px solid #484848;
   border-bottom: 1px solid #2E2E2E;
   padding-left: 20px;
 }
@@ -1780,7 +1775,6 @@ body.mn {
   .apply {
     height: auto;
     min-height: 100px;
-    overflow: visible;
     padding: 30px 0px;
     background: url(../_img/home_ill1_alt.jpg) center 100px no-repeat #f3f3f1;
     background-size: 200%;
@@ -1842,13 +1836,16 @@ body.mn {
 }
 @media only screen and (max-width: 568px) {
   .apply #l_arm1 {
-    display: none;
+    left: -1280px;
   }
 }
 @media only screen and (max-width: 460px) {
   .apply #l_arm1 {
-    left: -800px;
-    top: 150px;
+    left: -1520px;
+    width: 1620px;
+    height: 80px;
+    background-position: top right;
+    opacity: 1;
   }
 }
 .apply #l_arm2 {
@@ -1870,13 +1867,16 @@ body.mn {
 }
 @media only screen and (max-width: 568px) {
   .apply #l_arm2 {
-    display: none;
+    left: -1220px;
   }
 }
 @media only screen and (max-width: 460px) {
   .apply #l_arm2 {
-    left: -890px;
-    top: 185px;
+    left: -1520px;
+    width: 1590px;
+    height: 80px;
+    background-position: top right;
+    opacity: 1;
   }
 }
 .apply #l_arm3 {
@@ -1898,13 +1898,17 @@ body.mn {
 }
 @media only screen and (max-width: 568px) {
   .apply #l_arm3 {
-    display: none;
+    left: -1300px;
   }
 }
 @media only screen and (max-width: 460px) {
   .apply #l_arm3 {
-    left: -800px;
-    top: 242px;
+    left: -1420px;
+    width: 1520px;
+    height: 80px;
+    background-position: top right;
+    top: 120px;
+    opacity: 1;
   }
 }
 .apply #r_arm1 {
@@ -1926,13 +1930,17 @@ body.mn {
 }
 @media only screen and (max-width: 568px) {
   .apply #r_arm1 {
-    display: none;
+    right: -1420px;
   }
 }
 @media only screen and (max-width: 460px) {
   .apply #r_arm1 {
-    right: -800px;
-    top: 150px;
+    right: -1420px;
+    width: 1520px;
+    height: 80px;
+    background-position: top left;
+    top: 120px;
+    opacity: 1;
   }
 }
 .apply #r_arm2 {
@@ -1954,13 +1962,16 @@ body.mn {
 }
 @media only screen and (max-width: 568px) {
   .apply #r_arm2 {
-    display: none;
+    right: -1460px;
   }
 }
 @media only screen and (max-width: 460px) {
   .apply #r_arm2 {
-    right: -880px;
-    top: 185px;
+    right: -1470px;
+    width: 1520px;
+    height: 80px;
+    background-position: top left;
+    opacity: 1;
   }
 }
 .apply #r_arm3 {
@@ -1982,13 +1993,17 @@ body.mn {
 }
 @media only screen and (max-width: 568px) {
   .apply #r_arm3 {
-    display: none;
+    right: -1420px;
   }
 }
 @media only screen and (max-width: 460px) {
   .apply #r_arm3 {
-    right: -800px;
-    top: 242px;
+    top: 220px;
+    right: -1420px;
+    width: 1520px;
+    height: 80px;
+    background-position: top left;
+    opacity: 1;
   }
 }
 .linkedin:hover {
@@ -2037,14 +2052,11 @@ body.mn {
   color: #fff;
   font-style: italic;
 }
-@media only screen and (max-width: 768px) {
-  .team .staffer p em {
-    display: block;
-  }
-}
 @media only screen and (max-width: 460px) {
   .team .staffer p em {
     color: #fff;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 }
 .team .staffer img {
@@ -2061,6 +2073,13 @@ body.mn {
   transition: ease-in-out all 0.25s;
   margin-top: -33px;
   margin-bottom: 33px;
+}
+@media only screen and (max-width: 460px) {
+  .team .staffer:hover,
+  .team .staffer.hovered {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
 }
 .team .staffer:hover p em,
 .team .staffer.hovered p em {
@@ -2125,6 +2144,8 @@ body.mn {
 }
 .opportunity h1 p {
   font-family: "ff-tisa-web-pro", Helvetica, Arial, sans-serif;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
 }
 @media only screen and (max-width: 768px) {
   .opportunity h1 {
@@ -2165,6 +2186,7 @@ body.mn {
 }
 .opportunity .info .row .columns p {
   font-family: "ff-tisa-web-pro", Helvetica, Arial, sans-serif;
+  padding: 0px 20px;
 }
 @media only screen and (max-width: 1279px) {
   .opportunity .info .row .columns {
@@ -2203,6 +2225,7 @@ body.mn {
     height: 65px;
     top: 180px;
     width: 75px;
+    left: 0px;
   }
 }
 .opportunity #door {
@@ -2247,7 +2270,7 @@ body.mn {
 .employment p {
   font-family: "ff-tisa-web-pro", Helvetica, Arial, sans-serif;
   text-align: center;
-  padding-bottom: 40px;
+  padding: 0px 20px 40px 20px;
 }
 .benefits {
   border-top: 1px solid;
@@ -2378,7 +2401,6 @@ body.mn {
     width: 100%;
     background-position: -90px center;
     background-size: 140%;
-    background-color: #F3F3F1;
   }
 }
 @media only screen and (max-width: 460px) {
@@ -2397,7 +2419,7 @@ body.mn {
   color: transparent;
   background-position: 0px -143px;
   height: 58px;
-  margin: -10px auto 0px auto;
+  margin: -10px auto 20px auto;
 }
 #indeed span {
   position: absolute;
@@ -2427,7 +2449,7 @@ body.mn {
   color: transparent;
   height: 50px;
   background-position: 0px -40px;
-  margin: 0px auto 0px auto;
+  margin: 0px auto 20px auto;
 }
 #facebook span {
   position: absolute;
@@ -2456,7 +2478,7 @@ body.mn {
   color: transparent;
   background-position: 0px -90px;
   height: 50px;
-  margin: 0px auto 0px auto;
+  margin: 0px auto 20px auto;
 }
 #linkedin span {
   position: absolute;
@@ -2484,7 +2506,7 @@ body.mn {
   width: 200px;
   color: transparent;
   height: 50px;
-  margin: 0px auto 0px auto;
+  margin: 0px auto 20px auto;
 }
 #careerbuilder span {
   position: absolute;
@@ -2749,9 +2771,9 @@ body.mn {
 @media only screen and (max-width: 460px) {
   .homepost #arm,
   .homepost #arm2 {
-    bottom: 0px;
-    height: 250px;
-    width: 40px;
+    bottom: 319px;
+    width: 20%;
+    height: 34%;
   }
 }
 .results {
@@ -3683,6 +3705,9 @@ a {
   text-align: center;
   color: #fff;
 }
+.jobSeeker ul {
+  list-style: initial;
+}
 .jobSeeker .accordion {
   padding-top: 24px;
 }
@@ -3704,6 +3729,11 @@ a {
 .faq dt {
   border-top: solid 1px;
   border-color: #f9c854;
+}
+.faq dt a {
+  background-image: url('../_img/dwn.png');
+  background-repeat: no-repeat;
+  background-position: right center;
 }
 .faq dl {
   border-bottom: solid 1px;

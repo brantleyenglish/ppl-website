@@ -139,7 +139,7 @@
 <script>
     
     $('.staffer:first').toggleClass("hovered");
-            
+      if ( $(window).width() > 600 ) {      
     function show(id) {
         $('.staffer:first').toggleClass("hovered");
         document.getElementById('teamAboutExplained').style.display = 'none';
@@ -150,6 +150,7 @@
         document.getElementById(id).style.display = 'none';
         $('.staffer:first').toggleClass("hovered");
     }
+}
 </script>
 
 </body>

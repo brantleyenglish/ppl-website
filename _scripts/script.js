@@ -33,30 +33,32 @@ $(document).ready(function(){
 
 		return false;
 	});
-
-	$(document).scroll(function() {
-		if ($(window).scrollTop() > 400) {
-	        $('#l_arm1').addClass('bounceInLeft').delay(120).queue(function(next){
-			    $('#l_arm2').addClass('bounceInLeft').delay(120).queue(function(next){
-				    $('#l_arm3').addClass('bounceInLeft');
+	
+		$(document).scroll(function() {
+			if ( $(window).width() > 600 ) {
+			if ($(window).scrollTop() > 400) {
+		        $('#l_arm1').addClass('bounceInLeft').delay(120).queue(function(next){
+				    $('#l_arm2').addClass('bounceInLeft').delay(120).queue(function(next){
+					    $('#l_arm3').addClass('bounceInLeft');
+					    next();
+					});
 				    next();
 				});
-			    next();
-			});
-			$('#r_arm1').addClass('bounceInRight').delay(30).queue(function(next){
-			    $('#r_arm2').addClass('bounceInRight').delay(140).queue(function(next){
-				    $('#r_arm3').addClass('bounceInRight');
+				$('#r_arm1').addClass('bounceInRight').delay(30).queue(function(next){
+				    $('#r_arm2').addClass('bounceInRight').delay(140).queue(function(next){
+					    $('#r_arm3').addClass('bounceInRight');
+					    next();
+					});
 				    next();
 				});
-			    next();
-			});
-	    }
+		    }
 
-	    if ($(window).scrollTop() > 2100) {
-	        $("#arm").addClass('bounceInUp');
-	    }
-
-	});
+		    if ($(window).scrollTop() > 2100) {
+		        $("#arm").addClass('bounceInUp');
+		    }
+			}
+		});
+	
 
 
 	// var jPM = $.jPanelMenu({
@@ -67,20 +69,20 @@ $(document).ready(function(){
 	// jPM.on();
 
 
-	// $(".royalSlider").royalSlider({
-	//     // options go here
-	//     // as an example, enable keyboard arrows nav
-	//     keyboardNavEnabled: true,
-	//     loop: true,
-	//     randomizeSlides: true,
-	//     transitionSpeed: 1000,
-	//     autoPlay: {
- //    		// autoplay options go gere
- //    		enabled: true,
- //    		pauseOnHover: true,
- //    		delay: 4500
- //    	}
-	// });  
+	$(".royalSlider").royalSlider({
+	    // options go here
+	    // as an example, enable keyboard arrows nav
+	    keyboardNavEnabled: true,
+	    loop: true,
+	    randomizeSlides: true,
+	    transitionSpeed: 1000,
+	    autoPlay: {
+    		// autoplay options go gere
+    		enabled: true,
+    		pauseOnHover: true,
+    		delay: 4500
+    	}
+	});  
 	
 	
 	// // DESKTOP ANIMATIONS
