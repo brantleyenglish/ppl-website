@@ -3,7 +3,7 @@
     	<div class="small-4 medium-2 large-2 columns">
     		<img src="_img/flogo.png" />
     	</div>
-    	<div class="small-8 medium-4 large-4 columns">
+    	<div class="small-12 medium-4 large-4 columns">
     		<p><em>Personnel Placements, LLC</em><br />
 				Corporate Office:<br />
 				621 Old Hickory Blvd. Suite A-1<br />
