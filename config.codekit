@@ -1152,7 +1152,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 302640,
+		"initialSize": 107539,
 		"inputAbbreviatedPath": "\/_img\/employers_hero.jpg",
 		"outputAbbreviatedPath": "\/_img\/employers_hero.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1383,7 +1383,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 234596,
+		"initialSize": 54610,
 		"inputAbbreviatedPath": "\/_img\/hero.jpg",
 		"outputAbbreviatedPath": "\/_img\/hero.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2318,6 +2318,15 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/about.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/about.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/contact.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2524,7 +2533,7 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "PplStaffing.com",
+	"displayValue": "ppl",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_gray"
 	},

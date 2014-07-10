@@ -24,6 +24,7 @@ error_reporting(-1);
  $email_body = $email_body . "Job Description: " . $JobDescription .  "\n";
 $email_body = $email_body . "Skills Needed: " . $SkillsNeeded .  "\n";
 $headers = "From: " . $email;
+
 //  if(empty($firstName)){
 //  	$error = "You must enter your first name.";
 //  }

@@ -1,41 +1,8 @@
 $(document).ready(function(){
 
-	// var mmo = false;
-	// $('a.menu-trigger').click(function(){
-
-	// 	if(!mmo){
-	// 		$('body').addClass('mn');
-
-	// 		$('body').animate({
-	// 			marginRight: 260,
-	// 			marginLeft: -260
-	// 		});
-
-	// 		$('#mobile_menu').animate({
-	// 			right: 0
-	// 		});
-
-	// 		mmo = true;
-	// 	} else {
-	// 		$('body').animate({
-	// 			marginRight: 0,
-	// 			marginLeft: -0
-	// 		});
-
-	// 		$('#mobile_menu').animate({
-	// 			right: -260
-	// 		});
-
-	// 		$('body').removeClass('mn');
-
-	// 		mmo = false;
-	// 	}
-
-	// 	return false;
-	// });
-	 
-	$(document).scroll(function() {
-		if ( $(this).width() > 600 ) {
+	
+		$(document).scroll(function() {
+			
 			if ($(window).scrollTop() > 400) {
 		        $('#l_arm1').addClass('bounceInLeft').delay(120).queue(function(next){
 				    $('#l_arm2').addClass('bounceInLeft').delay(120).queue(function(next){
@@ -52,6 +19,7 @@ $(document).ready(function(){
 				    next();
 				});
 		    }
+
 
 		    if ($(window).scrollTop() > 2100) {
 		        $("#arm").addClass('bounceInUp');
@@ -74,6 +42,7 @@ $(document).ready(function(){
 		    }	    
 		}
 	});
+
 	
 
 

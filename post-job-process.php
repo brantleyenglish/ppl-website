@@ -23,6 +23,7 @@ error_reporting(-1);
  $email_body = $email_body . "Duration: " . $duration .  "\n";
  $email_body = $email_body . "Job Description: " . $JobDescription .  "\n";
 $email_body = $email_body . "Skills Needed: " . $SkillsNeeded .  "\n";
+$headers = "From: " . $email;
 
 //  if(empty($firstName)){
 //  	$error = "You must enter your first name.";
@@ -44,7 +45,8 @@ $email_body = $email_body . "Skills Needed: " . $SkillsNeeded .  "\n";
 // 	header('location: formerror.php?e='.urlencode($error)); exit;
 // }
  
-$headers = "From: " . $email;
+
+ 
 
 
 mail ('luke@sodiumhalogen.com', 'Quote Form', $email_body, $headers);
