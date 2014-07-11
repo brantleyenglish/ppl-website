@@ -64,16 +64,16 @@
         <h1>Our Job Boards</h1>
         <div class="row">
             <div class="large-3 columns">
-                <a href="http://www.indeed.com/jobs?q=company%3A%28Personnel+Placements%29" class="socialrollover" id="indeed"><span></span></a>
+                <a href="http://www.indeed.com/jobs?q=company%3A%28Personnel+Placements%29" class="socialrollover" id="indeed" ><span>Indeed</span></a>
             </div>
             <div class="large-3 columns">
-                <a href="http://www.facebook.com/pplstaffing" class="socialrollover" id="facebook"><span></span></a>
+                <a href="http://www.facebook.com/pplstaffing" class="socialrollover" id="facebook"><span>Facebook</span></a>
             </div>
             <div class="large-3 columns">
-                <a href="https://www.linkedin.com/company/personnel-placements-llc?trk=top_nav_home" class="socialrollover" id="linkedin"><span></span></a>
+                <a href="https://www.linkedin.com/company/personnel-placements-llc?trk=top_nav_home" class="socialrollover" id="linkedin"><span>Linkedin</span></a>
             </div>
             <div class="large-3 columns">
-                <a href="http://www.careerbuilder.com" class="socialrollover" id="careerbuilder"><span></span></a>
+                <a href="http://www.careerbuilder.com" class="socialrollover" id="careerbuilder"><span>Career Builder</span></a>
             </div>
         </div>
     </div>

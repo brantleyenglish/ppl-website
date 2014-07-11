@@ -40,27 +40,27 @@
 	</div>
     <div class="row">
     	<div class="staffer small-6 medium-4 large-2 columns" id="staffer" onMouseOver="show('teamabout')" onMouseOut="hide('teamabout')">
-    		<img src="_img/employees/jennifer.jpg" />
+    		<img src="_img/employees/jennifer.jpg" alt="Jennifer"/>
     		<p>Jennifer <br /><em>HR Assistant</em></p>
         </div>
     	<div class="staffer small-6 medium-4 large-2 columns" onMouseOver="show('teamabout2')" onMouseOut="hide('teamabout2')">
-    		<img src="_img/employees/chace.jpg" />
+    		<img src="_img/employees/chace.jpg" alt="chace"/>
     		<p>Chace <br /><em>Warehouse Manager</em></p>
     	</div>
     	<div class="staffer small-6 medium-4 large-2 columns" onMouseOver="show('teamabout3')" onMouseOut="hide('teamabout3')">
-    		<img src="_img/employees/alyssa.jpg" />
+    		<img src="_img/employees/alyssa.jpg" alt="alyssa"/>
     		<p>Alyssa <br /><em>Assembler</em></p>
     	</div>
     	<div class="staffer small-6 medium-4 large-2 columns" onMouseOver="show('teamabout4')" onMouseOut="hide('teamabout4')">
-    		<img src="_img/employees/brandi.jpg" />
+    		<img src="_img/employees/brandi.jpg" alt="brandi"/>
     		<p>Brandi <br /><em>Administrative Assistant</em></p>
     	</div>
     	<div class="staffer small-6 medium-4 large-2 columns" onMouseOver="show('teamabout5')" onMouseOut="hide('teamabout5')">
-    		<img src="_img/employees/cody.jpg" />
+    		<img src="_img/employees/cody.jpg" alt="cody"/>
     		<p>Cody <br /><em>Material Handler</em></p>
     	</div>
     	<div class="staffer small-6 medium-4 large-2 columns" onMouseOver="show('teamabout6')" onMouseOut="hide('teamabout6')">
-    		<img src="_img/employees/anthony.jpg" />
+    		<img src="_img/employees/anthony.jpg" alt="Anthony" />
     		<p>Anthony <br /><em>Chemical Batch Maker</em></p>
     	</div>
     </div>
@@ -137,20 +137,25 @@
 <?php include ('_inc/scripts.php'); ?>
 
 <script>
+
     
     $('.staffer:first').toggleClass("hovered");
-      if ( $(window).width() > 600 ) {      
+     
     function show(id) {
         $('.staffer:first').toggleClass("hovered");
         document.getElementById('teamAboutExplained').style.display = 'none';
         document.getElementById(id).style.display = 'block';
     }
-    function hide(id) {
+    function hide(id) {  
+        
         document.getElementById('teamAboutExplained').style.display = 'block';
         document.getElementById(id).style.display = 'none';
         $('.staffer:first').toggleClass("hovered");
     }
-}
+    
+
+ 
+
 </script>
 
 </body>
