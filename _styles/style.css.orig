@@ -1361,6 +1361,11 @@ input[type="submit"] {
   clear: both;
 }
 /* module styles */
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
 .nav {
   position: relative;
   background: rgba(43, 119, 195, 0.7);
@@ -1412,6 +1417,17 @@ input[type="submit"] {
   line-height: 28px;
   font-size: 13px;
   color: #fff;
+}
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+input[type="radio"] {
+  width: 10%;
+}
+.contact-us .button {
+  overflow: hidden;
 }
 .menu {
   position: relative;
@@ -2326,6 +2342,7 @@ body.mn {
   color: transparent;
   background-position: 0px -143px;
   height: 177px;
+  padding-top: 20px;
 }
 .jobBoards .socialrollover #facebook {
   display: block;
@@ -2334,6 +2351,7 @@ body.mn {
   color: transparent;
   height: 50px;
   background-position: 0px -40px;
+  padding-top: 20px;
 }
 .jobBoards .socialrollover #linkedin {
   display: block;
@@ -2342,6 +2360,7 @@ body.mn {
   color: transparent;
   background-position: 0px -90px;
   height: 50px;
+  padding-top: 20px;
 }
 .jobBoards .socialrollover #careerbuilder {
   display: block;
@@ -2349,6 +2368,7 @@ body.mn {
   width: 200px;
   color: transparent;
   height: 50px;
+  padding-top: 20px;
 }
 .jobBoards h1 {
   color: #f3f3f1;
@@ -2409,7 +2429,7 @@ body.mn {
     min-height: 100px;
     overflow: visible;
     background-size: 200%;
-    padding: 25px 0;
+    padding: 25px 25px;
   }
 }
 #indeed {
@@ -2419,7 +2439,7 @@ body.mn {
   color: transparent;
   background-position: 0px -143px;
   height: 58px;
-  margin: -10px auto 20px auto;
+  margin: -10px auto 30px auto;
 }
 #indeed span {
   position: absolute;
@@ -2449,7 +2469,7 @@ body.mn {
   color: transparent;
   height: 50px;
   background-position: 0px -40px;
-  margin: 0px auto 20px auto;
+  margin: 0px auto 30px auto;
 }
 #facebook span {
   position: absolute;
@@ -2478,7 +2498,7 @@ body.mn {
   color: transparent;
   background-position: 0px -90px;
   height: 50px;
-  margin: 0px auto 20px auto;
+  margin: 0px auto 30px auto;
 }
 #linkedin span {
   position: absolute;
@@ -2506,7 +2526,7 @@ body.mn {
   width: 200px;
   color: transparent;
   height: 50px;
-  margin: 0px auto 20px auto;
+  margin: 0px auto 30px auto;
 }
 #careerbuilder span {
   position: absolute;
@@ -2811,6 +2831,7 @@ body.mn {
   margin-bottom: 30px;
   padding: 23px 76px 49px 76px;
   width: 2000px;
+  left: 1300px;
 }
 .results .stats1 span {
   color: #59c3cf;
@@ -2830,6 +2851,7 @@ body.mn {
 .results .stats2 {
   padding: 36px 64px 36px 64px;
   width: 2000px;
+  left: 1300px;
 }
 .results .stats2 span {
   color: #f9c854;
@@ -3047,12 +3069,6 @@ aside .button {
 }
 .sept {
   margin: 0 3.8%;
-}
-.locfirst {
-  width: 100%;
-  border-bottom: 1px solid #aaaba8;
-  margin-bottom: 40px;
-  padding-bottom: 40px;
 }
 .loc {
   width: 100%;
@@ -3683,13 +3699,8 @@ a {
   text-align: center;
   color: #fff;
 }
-.service h2 {
-  color: #f9c854;
-}
 .service .accordion {
   padding-top: 24px;
-  border-bottom: solid 1px;
-  border-color: #f9c854;
 }
 .service .accordion dt a {
   color: #fff;

@@ -48,7 +48,7 @@
 		</aside>
 		
 		<article class="small-12 medium-9 columns data-sticky_column">
-			<div class="row loc-first">
+			<div class="row loc">
 				<div class="small-11 medium-6 columns">
 					<h2 id="Jackson">Jackson TN</h2>
 					621 Old Hickory Blvd, Suite A-1<br />
