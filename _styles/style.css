@@ -2031,6 +2031,9 @@ body.mn {
     min-width: 100%;
   }
 }
+.team em {
+  line-height: 1em;
+}
 .team .staffer {
   margin-bottom: 25px;
   margin-top: 25px;
@@ -2054,6 +2057,7 @@ body.mn {
   display: none;
   color: #fff;
   font-style: italic;
+  line-height: 1.5em;
 }
 @media only screen and (max-width: 460px) {
   .team .staffer p em {
@@ -2076,6 +2080,10 @@ body.mn {
   transition: ease-in-out all 0.25s;
   margin-top: -33px;
 }
+.team .staffer:hover em,
+.team .staffer.hovered em {
+  line-height: 1em;
+}
 @media only screen and (max-width: 460px) {
   .team .staffer:hover,
   .team .staffer.hovered {
@@ -2085,6 +2093,7 @@ body.mn {
 .team .staffer:hover p em,
 .team .staffer.hovered p em {
   display: block;
+  line-height: 1em;
 }
 .team .staffer:hover img,
 .team .staffer.hovered img {
@@ -2103,17 +2112,17 @@ body.mn {
 }
 @media only screen and (max-width: 1279px) {
   .team .staffer {
-    height: 270px;
+    height: 140px;
   }
 }
 @media only screen and (max-width: 768px) {
   .team .staffer {
-    height: 270px;
+    height: 140px;
   }
 }
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 600px) {
   .team .staffer {
-    height: 230px;
+    height: 300px;
   }
 }
 .team .employeeTestimonialContainer {
@@ -2129,7 +2138,12 @@ body.mn {
 }
 @media only screen and (max-width: 768px) {
   .team .employeeTestimonials {
-    height: 310px;
+    eight: 240px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .team .employeeTestimonials {
+    height: 250px;
   }
 }
 .team .invisible {

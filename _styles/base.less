@@ -1070,6 +1070,9 @@ body.mn{
 		}
 	}
 	
+    em{
+        line-height: 1em;
+    }
 	.staffer {
 		margin-bottom: 25px;
 		margin-top: 25px;
@@ -1092,7 +1095,7 @@ body.mn{
 				display: none;
 				color: #fff;
 				font-style: italic;
-                //line-height: 1em;
+                line-height: 1.5em;
 				
 				@media @mobile {
 					
@@ -1123,6 +1126,9 @@ body.mn{
             transition: ease-in-out all 0.25s;
             margin-top: -33px;
             // margin-bottom: 33px;
+            em{
+                line-height: 1em;
+            }
 
             @media @tiny{
                 margin-top: 0px;
@@ -1135,6 +1141,7 @@ body.mn{
 			
 				em {
 					display: block;
+                    line-height: 1em;
 				}
 			}
 			
@@ -1153,15 +1160,16 @@ body.mn{
 		}
 
         @media @desktop {
-            height: 270px;
+            height: 140px;
         }
 		
 		@media @mobile {
-			height: 270px;
+			height: 140px;
+
 		}
 		
-		@media @tiny {
-			height: 230px;
+		@media only screen and (max-width: 600px) {
+			height: 300px;
 		}
 	}
 
@@ -1176,7 +1184,11 @@ body.mn{
       padding-bottom: 12px;
       height: 150px;
       @media @mobile {
-        height: 310px;
+        eight: 240px;
+
+    }
+    @media only screen and (max-width: 600px){
+        height: 250px;
     }
 
     }
@@ -2187,7 +2199,7 @@ aside {
 }
 .loc {
 	width: 100%;
-	// float: left;
+	// float: right;
 	border-bottom: 1px solid #aaaba8;
 	margin-bottom: 40px;
 	padding-bottom: 40px;
