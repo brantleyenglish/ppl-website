@@ -64,7 +64,9 @@
     -o-border-radius: @radius;
     border-radius: @radius;
 }
-
+.button{
+    overflow: hidden;
+}
 .box-sizing(@sizing: border-box){
     -webkit-box-sizing: @sizing;
     -moz-box-sizing: @sizing;
@@ -1064,6 +1066,7 @@ body.mn{
 		@media @mobile {
 			width: 100%;
 			min-width: 100%;
+            
 		}
 	}
 	
@@ -1119,11 +1122,11 @@ body.mn{
             -o-transition: ease-in-out all 0.25s;
             transition: ease-in-out all 0.25s;
             margin-top: -33px;
-            margin-bottom: 33px;
+            // margin-bottom: 33px;
 
             @media @tiny{
                 margin-top: 0px;
-                margin-bottom: 0px;
+                // margin-bottom: 0px;
                
                 
             }
@@ -1158,7 +1161,7 @@ body.mn{
 		}
 		
 		@media @tiny {
-			height: 170px;
+			height: 230px;
 		}
 	}
 
@@ -1171,6 +1174,11 @@ body.mn{
       background: #2b77c3;
       color: white;
       padding-bottom: 12px;
+      height: 150px;
+      @media @mobile {
+        height: 310px;
+    }
+
     }
     .invisible{
         display:none;

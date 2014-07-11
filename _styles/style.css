@@ -1129,6 +1129,9 @@
   -o-background-clip: padding;
   background-clip: padding-box;
 }
+.button {
+  overflow: hidden;
+}
 /* handy shortcuts */
 .pull-left {
   float: left;
@@ -2072,13 +2075,11 @@ body.mn {
   -o-transition: ease-in-out all 0.25s;
   transition: ease-in-out all 0.25s;
   margin-top: -33px;
-  margin-bottom: 33px;
 }
 @media only screen and (max-width: 460px) {
   .team .staffer:hover,
   .team .staffer.hovered {
     margin-top: 0px;
-    margin-bottom: 0px;
   }
 }
 .team .staffer:hover p em,
@@ -2112,7 +2113,7 @@ body.mn {
 }
 @media only screen and (max-width: 460px) {
   .team .staffer {
-    height: 170px;
+    height: 230px;
   }
 }
 .team .employeeTestimonialContainer {
@@ -2124,6 +2125,12 @@ body.mn {
   background: #2b77c3;
   color: white;
   padding-bottom: 12px;
+  height: 150px;
+}
+@media only screen and (max-width: 768px) {
+  .team .employeeTestimonials {
+    height: 310px;
+  }
 }
 .team .invisible {
   display: none;
@@ -3217,6 +3224,7 @@ figure figcaption {
 .inline-form input[type='submit'],
 .standard-form input[type='submit'],
 .horizontal-form input[type='submit'] {
+  overflow: hidden;
   height: 58px;
   line-height: 58px;
   display: inline-block;
