@@ -2125,8 +2125,6 @@ body.mn {
 @media only screen and (max-width: 768px) {
   .team .staffer {
     height: 140px;
-    padding-left: 20px;
-    padding-right: 20px;
   }
 }
 @media only screen and (max-width: 600px) {
@@ -3793,6 +3791,10 @@ a {
   background-repeat: no-repeat;
   background-position: right center;
 }
+.service .accordion dt a:hover {
+  text-decoration: none;
+  color: #f9c854;
+}
 .service dt {
   border-top: solid 1px;
   border-color: #f9c854;
@@ -3839,6 +3841,10 @@ a {
   background-image: url('../_img/dwn.png');
   background-repeat: no-repeat;
   background-position: right center;
+}
+.faq dt a:hover {
+  text-decoration: none;
+  color: #f9c854;
 }
 .faq dl {
   border-bottom: solid 1px;
@@ -3909,6 +3915,11 @@ a {
 }
 #cta .button:first-child {
   margin-right: 15px;
+}
+@media only screen and (max-width: 1279px) {
+  #cta .button:last-child {
+    margin-right: 15px;
+  }
 }
 @media only screen and (max-width: 768px) {
   #cta {

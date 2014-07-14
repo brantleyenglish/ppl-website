@@ -1171,8 +1171,7 @@ body.mn{
 		
 		@media @mobile {
 			height: 140px;
-            padding-left: 20px;
-            padding-right: 20px;
+            
 
 		}
 		
@@ -2833,6 +2832,10 @@ a {
         background-image: url('../_img/dwn-white.png');
         background-repeat: no-repeat;
         background-position: right center;
+        &:hover{
+            text-decoration: none;
+            color: @yellow;
+        }
     }
     dt{
         border-top: solid 1px;
@@ -2882,6 +2885,12 @@ a {
             background-image: url('../_img/dwn.png');
             background-repeat: no-repeat;
             background-position: right center;
+            &:hover{
+                text-decoration: none;
+                color: @yellow;
+            }
+            
+
         }
     }
     dl{
@@ -2961,6 +2970,11 @@ a {
     .button:first-child{
         margin-right: 15px;
     }
+    @media @desktop{
+    .button:last-child{
+        margin-right: 15px;
+    }
+}
     
     @media @mobile {
         display: none;
