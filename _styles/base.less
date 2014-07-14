@@ -887,12 +887,12 @@ body.mn{
         top: 123px;
         
         @media @largeish {
-            left: -1200px;
+            left: -1180px;
         }
         
         @media @mobile {
             top: 223px;
-            left: -1200px;
+            left: -1180px;
         }
 
         @media @tiny-landscape{
@@ -972,12 +972,12 @@ body.mn{
         top: 100px;
         
         @media @largeish {
-            right: -1400px;
+            right: -1380px;
         }
         
         @media @mobile {
             top: 200px;
-            right: -1400px;
+            right: -1380px;
         }
 
         @media @tiny-landscape{
@@ -1088,8 +1088,8 @@ body.mn{
 		-ms-transition: ease-in-out all 0.25s;
 		-o-transition: ease-in-out all 0.25s;
 		transition: ease-in-out all 0.25s;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
     
         
 		p {
@@ -1171,11 +1171,15 @@ body.mn{
 		
 		@media @mobile {
 			height: 140px;
+            padding-left: 20px;
+            padding-right: 20px;
 
 		}
 		
 		@media only screen and (max-width: 600px) {
 			height: 300px;
+             padding-left: 20px;
+            padding-right: 20px;
 		}
         @media only screen and (max-width: 400px) {
             height: 180px;
@@ -1923,6 +1927,7 @@ display: inline-block;
 			bottom: 319px;
             width: 20%;
             height: 34%;
+            left: 155px;
 
 			
 		}
@@ -2250,7 +2255,8 @@ aside {
 	border-bottom: 1px solid #aaaba8;
 	margin-bottom: 40px;
 	padding-bottom: 40px;
-    padding-top: 12px;
+    padding-top: 20px;
+    
     
 	
 	.seven-col {

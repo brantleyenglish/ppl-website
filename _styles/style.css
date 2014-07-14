@@ -1835,13 +1835,13 @@ body.mn {
 }
 @media only screen and (min-width: 769px) and (max-width: 1028px) {
   .apply #l_arm1 {
-    left: -1200px;
+    left: -1180px;
   }
 }
 @media only screen and (max-width: 768px) {
   .apply #l_arm1 {
     top: 223px;
-    left: -1200px;
+    left: -1180px;
   }
 }
 @media only screen and (max-width: 568px) {
@@ -1929,13 +1929,13 @@ body.mn {
 }
 @media only screen and (min-width: 769px) and (max-width: 1028px) {
   .apply #r_arm1 {
-    right: -1400px;
+    right: -1380px;
   }
 }
 @media only screen and (max-width: 768px) {
   .apply #r_arm1 {
     top: 200px;
-    right: -1400px;
+    right: -1380px;
   }
 }
 @media only screen and (max-width: 568px) {
@@ -2050,8 +2050,8 @@ body.mn {
   -ms-transition: ease-in-out all 0.25s;
   -o-transition: ease-in-out all 0.25s;
   transition: ease-in-out all 0.25s;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .team .staffer p {
   color: #f9c854;
@@ -2125,11 +2125,15 @@ body.mn {
 @media only screen and (max-width: 768px) {
   .team .staffer {
     height: 140px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 @media only screen and (max-width: 600px) {
   .team .staffer {
     height: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 @media only screen and (max-width: 400px) {
@@ -2854,6 +2858,7 @@ body.mn {
     bottom: 319px;
     width: 20%;
     height: 34%;
+    left: 155px;
   }
 }
 .results {
@@ -3149,7 +3154,7 @@ aside .button {
   border-bottom: 1px solid #aaaba8;
   margin-bottom: 40px;
   padding-bottom: 40px;
-  padding-top: 12px;
+  padding-top: 20px;
 }
 .loc .seven-col {
   text-align: center;
