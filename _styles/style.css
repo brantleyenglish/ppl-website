@@ -1688,7 +1688,8 @@ body.mn {
 }
 .header.standard h1 {
   color: #fff;
-  padding: 30px 0 25px 12px;
+  padding: 20px 0 25px 12px;
+  line-height: .6;
 }
 @media only screen and (max-width: 768px) {
   .header.standard {
@@ -1739,9 +1740,15 @@ body.mn {
   text-align: left;
   font-family: "freight-sans-pro", Helvetica, Arial, sans-serif;
 }
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 801px) {
   .apply .info p {
     text-align: center;
+    margin-top: -65px;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .apply .info p {
+    margin-top: auto;
   }
 }
 .apply .info a {
