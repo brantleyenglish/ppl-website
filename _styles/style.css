@@ -2125,6 +2125,11 @@ body.mn {
     height: 300px;
   }
 }
+@media only screen and (max-width: 400px) {
+  .team .staffer {
+    height: 180px;
+  }
+}
 .team .employeeTestimonialContainer {
   width: 66%;
   margin: 0 auto;
@@ -2144,6 +2149,11 @@ body.mn {
 @media only screen and (max-width: 600px) {
   .team .employeeTestimonials {
     height: 250px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .team .employeeTestimonials {
+    height: 360px;
   }
 }
 .team .invisible {
@@ -2556,12 +2566,26 @@ body.mn {
   display: inline-block;
   background-position: -180px 0px;
 }
+@media only screen and (max-width: 460px) {
+  .logobox2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .logobox3 {
   background: url(../_img/employors/logo_sprite.png) no-repeat;
   width: 180px;
   height: 130px;
   display: inline-block;
   background-position: -360px 0px;
+}
+@media only screen and (max-width: 460px) {
+  .logobox3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 .logobox4 {
   background: url(../_img/employors/logo_sprite.png) no-repeat;
@@ -2570,12 +2594,26 @@ body.mn {
   display: inline-block;
   background-position: -530px 0px;
 }
+@media only screen and (max-width: 460px) {
+  .logobox4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .logobox5 {
   background: url(../_img/employors/logo_sprite.png) no-repeat;
   width: 180px;
   height: 130px;
   display: inline-block;
   background-position: -710px 0px;
+}
+@media only screen and (max-width: 460px) {
+  .logobox5 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 .logobox6 {
   background: url(../_img/employors/logo_sprite.png) no-repeat;
@@ -2584,11 +2622,25 @@ body.mn {
   display: inline-block;
   background-position: -900px 0px;
 }
+@media only screen and (max-width: 460px) {
+  .logobox6 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .logobox {
   background: url(../_img/employors/logo_sprite.png) no-repeat;
   width: 180px;
   height: 130px;
   display: inline-block;
+}
+@media only screen and (max-width: 460px) {
+  .logobox {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 .clients {
   height: auto;
@@ -2802,6 +2854,11 @@ body.mn {
   background: #F3F3F1;
   padding-top: 55px;
 }
+@media only screen and (max-width: 850px) and (min-width: 600) {
+  .results {
+    height: 700px;
+  }
+}
 .results h1 {
   color: #2b77c3;
 }
@@ -2868,6 +2925,11 @@ body.mn {
 @media only screen and (max-width: 460px) {
   .results p {
     text-align: center;
+  }
+}
+@media only screen and (max-width: 799px) {
+  .results {
+    height: 700px;
   }
 }
 @media only screen and (max-width: 460px) {
