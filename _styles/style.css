@@ -1354,7 +1354,7 @@ input[type="submit"] {
 .postJob input,
 .quote textarea,
 .postJob textarea {
-  width: 100%;
+  width: 10%;
 }
 .hr {
   width: 100%;
