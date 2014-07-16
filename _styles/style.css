@@ -2142,7 +2142,7 @@ body.mn {
 .team .employeeTestimonialContainer {
   width: 66%;
   margin: 0 auto;
-  padding: 79px 0 0 0;
+  padding: 140px 0 0 0;
 }
 .team .employeeTestimonials {
   background: #2b77c3;
@@ -2254,7 +2254,7 @@ body.mn {
 .opportunity #letter {
   background: url(../_img/arm_letter.png) top left no-repeat;
   position: absolute;
-  left: -160px;
+  left: 0px;
   top: 160px;
   background-size: cover;
   width: 143px;
