@@ -96,7 +96,7 @@
  </section>
 <section class="block opportunity">
     <div class="row">
-		<div id="letter" class="bounceInLeft"></div>
+		<div id="letter"></div>
 		<div id="door"></div>
     	<div class="columns">
             <div class="headlines">

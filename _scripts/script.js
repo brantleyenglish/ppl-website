@@ -56,6 +56,18 @@ $(document).ready(function(){
 		    if ($(window).scrollTop() > 2100) {
 		        $("#arm").addClass('bounceInUp');
 		    }
+		     if ($(window).scrollTop() > 1500) {
+		        $("#letter").addClass('bounceInLeft');
+		    }
+		    if ($(window).scrollTop() > 1500) {
+		        $("#letter").addClass('bounceInLeft');
+		    }
+		    if ($(window).scrollTop() > 700) {
+		        $(".stats1").addClass('bounceInRight');
+		    }
+		    if ($(window).scrollTop() > 700) {
+		        $(".stats2").addClass('bounceInRight');
+		    }
 			}
 		});
 	

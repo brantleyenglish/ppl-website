@@ -16,7 +16,7 @@
 	<?php include ('_inc/header-employer.php'); ?>
 	
 <section class="block homepost">
-	<div id="arm2"></div>
+	<div id="arm2" class="bounceInUp"></div>
     <div class="row">
         <div class="headlines">
         	<div class="large-6 columns">

@@ -3147,6 +3147,36 @@ aside .button {
   margin-bottom: 40px;
   padding-bottom: 40px;
 }
+.locfirst .seven-col {
+  text-align: center;
+}
+.locfirst img {
+  width: 100%;
+}
+.locfirst ul {
+  margin-left: 0;
+}
+.locfirst ul li {
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+.locfirst ul li:before {
+  content: none;
+}
+.locfirst h2 {
+  padding: 0px;
+}
+.locfirst .services {
+  margin-top: 20px;
+}
+.locfirst .cli_img1 {
+  margin-right: 4%;
+}
+.imgwrap {
+  float: right;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
 .loc {
   width: 100%;
   border-bottom: 1px solid #aaaba8;
@@ -3814,6 +3844,7 @@ a {
 }
 .jobSeeker ul {
   list-style: initial;
+  padding-left: 20px;
 }
 .jobSeeker .accordion {
   padding-top: 24px;
