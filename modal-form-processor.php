@@ -38,7 +38,7 @@ if(isset($error)){
 $headers = "PPL Contact Form:" . $firstName;
 
 
-mail ('luke@sodiumhalogen.com', 'PPL Contact', $email_body, $headers);
+mail ('amy@pplstaffing.com', 'PPL Contact', $email_body, $headers);
 
 
 

@@ -1354,7 +1354,7 @@ input[type="submit"] {
 .postJob input,
 .quote textarea,
 .postJob textarea {
-  width: 10%;
+  width: 100%;
 }
 .hr {
   width: 100%;
@@ -3964,6 +3964,9 @@ input[type="radio"] + label {
   margin-right: 0.88889rem;
   margin-bottom: 0;
   vertical-align: baseline;
+}
+input[type="radio"] {
+  width: 10%;
 }
 #jPanelMenu-menu {
   background: none repeat scroll 0 0 #3B3B3B;
