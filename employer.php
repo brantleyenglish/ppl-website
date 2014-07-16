@@ -1,5 +1,6 @@
 <?php $page = basename($_SERVER['SCRIPT_NAME']); ?>
 <?php $title = "Employer Services" ?>
+<?php $$metaDescription = ""; ?>
 
 <!doctype html>
 <html dir="ltr" lang="en" class="no-js">

@@ -1,4 +1,5 @@
 <?php $title ="Our Locations"; ?>
+<?php $$metaDescription = "Catch all of our locations available in Tennessee."; ?>
 
 <!doctype html>
 <html dir="ltr" lang="en" class="no-js">

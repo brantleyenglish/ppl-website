@@ -1,11 +1,16 @@
 <?php $page = basename($_SERVER['SCRIPT_NAME']); ?>
+<?php $title ="Employment Resources"; ?>
+<?php $$metaDescription = "Stay up to date with the hottest hiring insights. Start learning and get hired. Learners are earners."; ?>
 
 <!doctype html>
 <html dir="ltr" lang="en" class="no-js">
 <head>
+
+
 <?php include ('_inc/header.php'); ?>
+
 </head>
-<body class="home">
+<body class="sub about">
 <!-- begin markup -->
 
 	<?php include ('_inc/header-home.php'); ?>

@@ -1,11 +1,16 @@
 <?php $page = basename($_SERVER['SCRIPT_NAME']); ?>
+<?php $title ="Jobs Now Hiring in Jackson, TN"; ?>
+<?php $$metaDescription = "Local jobs are available in Tennessee at PPL. Many employers are hiring. Find your next job today!"; ?>
 
 <!doctype html>
 <html dir="ltr" lang="en" class="no-js">
 <head>
+
+
 <?php include ('_inc/header.php'); ?>
+
 </head>
-<body class="home">
+<body class="sub about">
 <!-- begin markup -->
 
 	<?php include ('_inc/header-home.php'); ?>
@@ -82,7 +87,7 @@
             <p>"PPL placed me in a position that was just what I was looking for. I was hired permanently within ninety days and three years later I am very happy with my job."</p>
         </div>
         <div id="teamabout5" class="employeeTestimonials invisible">
-            <p>““I had just obtained training for driving a forklift, and PPL went above and beyond to ensure I was placed at a great job and a new career.””</p>
+            <p>““I had just obtained training for driving a forklift, and PPL went above and beyond to ensure I was placed at a great job and a new career.”</p>
         </div>
         <div id="teamabout6" class="employeeTestimonials invisible">
             <p>“ If you're looking to go further in your career, then PPL is the place to be. Don’t miss the chance to be the best and around the best!”</p>
@@ -122,7 +127,7 @@
 	        </div>
 	        <div class="info large-4 columns">
             	<div class="medium-6 large-12 columns">
-                	<p>PPL meticulously evaluates and screens each candidate to find only the best. We can check both work and personal references and all candidates must pass drug and background checks..</p>
+                	<p>PPL meticulously evaluates and screens each candidate to find only the best. We can check both work and personal references and all candidates must pass drug and background checks.</p>
                 </div>
                 <div class="columns">
                 	<a href="employer.php" class="button">Post Your Job</a>

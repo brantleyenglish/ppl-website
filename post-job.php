@@ -1,4 +1,5 @@
-<?php $title ="Post Job"; ?>
+<?php $title ="Post A Job"; ?>
+<?php $$metaDescription = "Hiring for your restaurant, store or manufacturing plant? Post your job on PPL and find qualified candidates in your area today."; ?>
 
 <!doctype html>
 <html dir="ltr" lang="en" class="no-js">

@@ -1,4 +1,5 @@
 <?php $title ="About Us"; ?>
+<?php $$metaDescription = "Learn about the expereince behind PPL and the leaders that are helping create and fill jobs in Tennessee."; ?>
 
 <!doctype html>
 <html dir="ltr" lang="en" class="no-js">

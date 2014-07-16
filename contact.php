@@ -1,26 +1,12 @@
+<?php $title ="Contact Us"; ?>
+<?php $$metaDescription = "Get in contact with us to get a job and get your open position posted."; ?>
+
 <!doctype html>
 <html dir="ltr" lang="en" class="no-js">
 <head>
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="viewport" content="width=device-width" />
 
-<title>Contact | Sodium Halogen Framework</title>
 
-<link rel="stylesheet" href="_styles/reset.css" media="screen" />
-<link rel="stylesheet" href="_styles/style.css" media="screen" />
-<link rel="stylesheet" href="_styles/mobile_nav.css" media="screen" />
-
-<!-- give life to HTML5 objects in IE -->
-<!--[if lte IE 8]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-
-<!-- js HTML class -->
-<script>(function(H){H.className=H.className.replace(/\bno-js\b/,"js")})(document.documentElement)</script>
-
-<script type="text/javascript" src="//use.typekit.net/qqc1ozm.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
-<?php include ('_inc/google-analytics.php'); ?>
+<?php include ('_inc/header.php'); ?>
 
 </head>
 <body class="sub about">
@@ -30,7 +16,7 @@
 
     <header class="header standard">
         <div class="row">
-            <h1>Contact</h1>
+            <h1><?php echo $title; ?></h1>
         </div>
     </header>
 
