@@ -1188,7 +1188,11 @@ body.mn{
     .employeeTestimonialContainer{
     width: 66%;
     margin: 0 auto;
-    padding: 140px 0 0 0;
+    
+    @media only screen and (max-width: 600px){
+        padding-top: 30px;
+    }
+    padding: 100px 0 0 0;
     }
     .employeeTestimonials {
       background: #2b77c3;
@@ -1271,12 +1275,18 @@ body.mn{
 
                 p{
                     font-family: "ff-tisa-web-pro", Helvetica, Arial, sans-serif;
+                    @media @tiny{
+                        padding-top: 80px;
+                    }
                     padding: 0px 20px;
                 }
-    		
+    		@media @tiny{
+                    padding-top: 80px;
+                }
 	    		@media @desktop {
 	    			padding: 0px !important;		
 	    		}
+                
     		}
     	}
     }
@@ -1307,15 +1317,26 @@ body.mn{
 		height: 124px;
 		
 		@media @mobile {
-		
+		height: 65px;
+        top: 180px;
+        width: 75px;
+        left: 50px;
+
 		}
-		
-		@media @tiny {
-			height: 65px;
-			top: 180px;
-			width: 75px;
+        @media @tiny {
+            height: 65px;
+            top: 180px;
+            width: 75px;
+            left: 50px;
+        }
+        @media only screen and (max-width:325px){
+            height: 65px;
+            top: 180px;
+            width: 75px;
             left: 0px;
-		}
+        }
+		
+		
 	}
 	
 	#door {
@@ -1326,21 +1347,29 @@ body.mn{
         background-size: cover;
         width: 290px;
         height: 459px;
+        @media @mobile {
+            height: 360px;
+            left: -90px;
+            top: 70px;
+            width: 145px;
+        }
+        @media @tiny{
+            height: 280px;
+            left: -90px;
+            top: 130px;
+            width: 145px;
+        }
+		@media only screen and (max-width:325px) {
+            height: 222px;
+            width: 87px;
+            top: 113px;
+            left: -55px;
+            background-size: cover !important;
+        }
 		
-		@media @mobile {
-			height: 370px;
-			left: -130px;
-			top: 60px;
-			width: 145px;
-		}
+       
 		
-		@media @tiny {
-			height: 222px;
-			width: 87px;
-			top: 113px;
-			left: -55px;
-			background-size: cover !important;
-		}
+		
 	}
 }
 
@@ -1868,11 +1897,14 @@ display: inline-block;
     		.tisa();
     		font-size: 20px;
     		line-height: 34px;
+            
     		
     		@media @tiny {
     			font-size: 18px;
     			line-height: 1.5em;
+                padding-top: 100px;
     		}
+            padding-top: auto;
     	}
     
     	a {
@@ -1923,13 +1955,20 @@ display: inline-block;
         }
 		
 		@media @tiny {
-			bottom: 319px;
+			bottom: 259px;
             width: 20%;
-            height: 34%;
+            height: 45%;
+            left: 195px;
+        }
+        @media only screen and (max-width: 325px){
+            bottom: 419px;
+            width: 20%;
+            height: 35%;
             left: 155px;
+        }
 
 			
-		}
+		
 	}
 }
 

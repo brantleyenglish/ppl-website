@@ -13,8 +13,8 @@ Employee Services, Employer Services" >
 <link rel="stylesheet" href="_styles/style.css" media="screen" />
 <link rel="stylesheet" href="_styles/mobile_nav.css" media="screen" />
 <link rel="icon" 
-      type="image/png" 
-      href="../_img/flogo.png">
+   		type="img/png"
+      href="../_img/favicon.png">
 
 <!-- give life to HTML5 objects in IE -->
 <!--[if lte IE 8]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->

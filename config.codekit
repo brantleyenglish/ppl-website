@@ -1214,6 +1214,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_img\/favicon-01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 865,
+		"inputAbbreviatedPath": "\/_img\/favicon-01.png",
+		"outputAbbreviatedPath": "\/_img\/favicon-01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_img\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 842,
+		"inputAbbreviatedPath": "\/_img\/favicon.png",
+		"outputAbbreviatedPath": "\/_img\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_img\/flogo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1573,6 +1595,17 @@
 		"initialSize": 4546,
 		"inputAbbreviatedPath": "\/_img\/Untitled-4.png",
 		"outputAbbreviatedPath": "\/_img\/Untitled-4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_img\/Untitled-8.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 842,
+		"inputAbbreviatedPath": "\/_img\/Untitled-8.png",
+		"outputAbbreviatedPath": "\/_img\/Untitled-8.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
