@@ -49,7 +49,7 @@ $headers = "From: " . $email;
  
 //amy@pplstaffing.com
 
-mail ('amy@pplstaffing.com', 'Quote Form', $email_body, $headers);
+mail('amy@pplstaffing.com', 'Quote Form', $email_body, $headers);
 
 
 

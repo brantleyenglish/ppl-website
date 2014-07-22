@@ -35,10 +35,10 @@ if(isset($error)){
 }
  
 
-$headers = "PPL Contact Form:" . $firstName;
+$headers = "From: " . $email;
 
 
-mail ('amy@pplstaffing.com', 'PPL Contact', $email_body, $headers);
+mail('amy@pplstaffing.com', 'PPL Contact', $email_body, $headers);
 
 
 
