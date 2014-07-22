@@ -44,26 +44,26 @@
             <div class="row">
                 <div class="medium-4 columns">
                     
-               <h3>Company Name *</h3> <input type="text" name="CompanyName" placeholder="Company Name" required="required" />
-               <h3>Contact Person *</h3><input type="text" name="ContactPerson" placeholder="Contact Person" required="required"/>
+               <h3>Company Name *</h3> <input type="text" name="CompanyName" placeholder="Company Name" required/>
+               <h3>Contact Person *</h3><input type="text" name="ContactPerson" placeholder="Contact Person" required/>
                 </div>
                 <div class="medium-4 columns">
-                <h3>Phone Number*</h3><input type="tel" name="PhoneNumber" placeholder="(###) ###-####" required="required"/> 
-                <h3>E-mail *</h3><input type="text" name="email" placeholder="example@gmail.com" required="required"/>
+                <h3>Phone Number*</h3><input type="tel" name="PhoneNumber" placeholder="(###) ###-####" required/> 
+                <h3>E-mail *</h3><input type="text" name="email" placeholder="example@gmail.com" required/>
                </div>
               
                 <div class="medium-4 columns">
-                <h3>Number of Positions *</h3><input type="text" name="NofPositions" placeholder="#" required="required"/>
-                <h3>Job Title *</h3><input type="text" name="JobTitle" placeholder="JobTitle" required="required"/>    
+                <h3>Number of Positions *</h3><input type="text" name="NofPositions" placeholder="#" required/>
+                <h3>Job Title *</h3><input type="text" name="JobTitle" placeholder="JobTitle" required/>    
             </div>
             </div>
             <div class="row">
                 <div class="medium-4 columns">
-                <h3>Desired Start Date *</h3><input type="date" name="StartingDate" value="mm/dd/yyyy" required="required"/>
+                <h3>Desired Start Date *</h3><input type="date" name="StartingDate" value="mm/dd/yyyy" required/>
                 <h3>Estimated Duration of Assignment *</h3>
-                <input type="radio" value="One Month" name="duration" required="required" id="onemth"> <label for="onemth">One Month</label></br>
-                <input type="radio" value="One to Three Months" name="duration"required="required" id="twomth"> <label for="twomth">One to Three Months</label></br>
-                <input type="radio" value="Three or More Months" name="duration" required="required" id="threemth"> <label for="threemth">Three or More Months</label></br>
+                <input type="radio" value="One Month" name="duration" id="onemth" required> <label for="onemth">One Month</label></br>
+                <input type="radio" value="One to Three Months" name="duration"id="twomth" required> <label for="twomth">One to Three Months</label></br>
+                <input type="radio" value="Three or More Months" name="duration" id="threemth" required> <label for="threemth">Three or More Months</label></br>
 <!--         <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Red</label>
  -->                </div>
                 <div class="medium-8 columns">
