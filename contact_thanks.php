@@ -18,10 +18,10 @@
     <header class="header standard">
         <div class="row">
             <h1><?php echo $title; ?></h1>
-            <div id="something">
+           <!--  <div id="something">
             <a href="#" class="button">Post Job</a>
             <a href="#"class="button">Apply for a Job</a>
-            </div>
+            </div> -->
         </div>
     </header>
 
