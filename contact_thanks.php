@@ -33,7 +33,7 @@
 			<h2>Thank you!</h2>
 			<p>Your email is sent! We'll be in contact shortly.</p>
 			<a href="about.php" class="button lt-button">Learn About Us</a>
-			<a href="loactions.php" class="button">See Locations</a>
+			<a href="locations.php" class="button">See Locations</a>
 		</article>
 	
 
