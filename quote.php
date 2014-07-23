@@ -36,10 +36,11 @@
             </div>
         </aside>
         
-        <article class="small-12 medium-9 columns data-sticky_column">
-            <div class="row loc qoute">
+        <article class="small-12 medium-9 columns">
+            <div class="row loc postJob">
                 <div class="small-11 medium-12 columns">
                     <h2>Request A Quote</h2>
+
                     <form action="quote-process.php" method="post" class="inline-form">
                         <div class="row">
                             <div class="medium-4 columns">
