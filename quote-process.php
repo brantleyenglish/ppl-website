@@ -50,7 +50,7 @@ $headers = "From: " . $email;
  
 //amy@pplstaffing.com
 
-if (mail('chance@sodiumhalogen.com', 'Quote Form', $email_body, $headers)) {
+if (mail('amy@pplstaffing.com', 'Quote Form', $email_body, $headers)) {
 	header('location: contact_thanks.php?e='.urlencode("ThankYou"));
 } else {
 	$link = "javascript:history.back(1);";
