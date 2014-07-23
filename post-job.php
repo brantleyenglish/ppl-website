@@ -44,32 +44,32 @@
                     <form action="post-job-process.php" method="post" class="inline-form">
                         <div class="row">
                             <div class="medium-4 columns">
-                                <h3>Company Name *</h3> <input type="text" name="CompanyName" placeholder="Company Name" required="required" />
-                                <h3>Contact Person *</h3><input type="text" name="ContactPerson" placeholder="Contact Person" required="required"/>
+                                <h3>Company Name *</h3> <input type="text" name="CompanyName" placeholder="Company Name" required>
+                                <h3>Contact Person *</h3><input type="text" name="ContactPerson" placeholder="Contact Person" required>
                             </div>
                             <div class="medium-4 columns">
-                                <h3>Phone Number*</h3><input type="tel" name="PhoneNumber" placeholder="(###) ###-####" required="required"/> 
-                                <h3>E-mail *</h3><input type="text" name="email" placeholder="example@gmail.com" required="required"/>
+                                <h3>Phone Number*</h3><input type="tel" name="PhoneNumber" placeholder="(###) ###-####" required> 
+                                <h3>E-mail *</h3><input type="text" name="email" placeholder="example@gmail.com" required>
                             </div>
 
                             <div class="medium-4 columns">
-                                <h3>Number of Positions *</h3><input type="text" name="NofPositions" placeholder="#" required="required"/>
-                                <h3>Job Title *</h3><input type="text" name="JobTitle" placeholder="JobTitle" required="required"/>    
+                                <h3>Number of Positions *</h3><input type="text" name="NofPositions" placeholder="#" required>
+                                <h3>Job Title *</h3><input type="text" name="JobTitle" placeholder="JobTitle" required>    
                             </div>
                         </div>
                         <div class="row">
                             <div class="medium-4 columns">
-                                <h3>Desired Start Date *</h3><input type="date" name="StartingDate" value="mm/dd/yyyy" required="required"/>
+                                <h3>Desired Start Date *</h3><input type="date" name="StartingDate" value="mm/dd/yyyy" required>
                                 <h3>Estimated Duration of Assignment *</h3>
-                                <input type="radio" value="One Month" name="duration" required="required" id="onemth"> <label for="onemth">One Month</label></br>
-                                <input type="radio" value="One to Three Months" name="duration"required="required" id="twomth"> <label for="twomth">One to Three Months</label></br>
-                                <input type="radio" value="Three or More Months" name="duration" required="required" id="threemth"> <label for="threemth">Three or More Months</label></br>
+                                <input type="radio" value="One Month" name="duration" id="onemth" required> <label for="onemth">One Month</label></br>
+                                <input type="radio" value="One to Three Months" name="duration" id="twomth"> <label for="twomth">One to Three Months</label></br>
+                                <input type="radio" value="Three or More Months" name="duration" id="threemth"> <label for="threemth">Three or More Months</label></br>
                                 <!--         <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Red</label>
                                 -->
                             </div>
                             <div class="medium-8 columns">
-                                <h3>Job Description *</h3><textarea name="JobDescription" required="required" placeholder="Job Desciption" cols="47" rows="5" > </textarea>
-                                <h3> Skills Needed *</h3><textarea name="SkillsNeeded" required="required" cols="47" rows="5" placeholder="Skills Needed"></textarea>
+                                <h3>Job Description *</h3><textarea name="JobDescription" placeholder="Job Desciption" cols="47" rows="5" required> </textarea>
+                                <h3> Skills Needed *</h3><textarea name="SkillsNeeded" cols="47" rows="5" placeholder="Skills Needed" required></textarea>
                                 <input type="Submit" value="Submit" class="button" id="quotebutton">
                             </div>
                         </div>

@@ -12,17 +12,18 @@ error_reporting(-1);
  $duration = $_POST["duration"];
  $JobDescription = $_POST["JobDescription"];
  $SkillsNeeded = $_POST["SkillsNeeded"];
- 
- $email_body = $email_body . "CompanyName: " . $CompanyName . "\n";
- $email_body = $email_body . "ContactPerson: " . $ContactPerson. "\n";
- $email_body = $email_body . "Phone: " . $PhoneNumber . "\n";
- $email_body = $email_body . "E-mail: " . $email . "\n";
- $email_body = $email_body . "Number of Positions: " . $NofPositions .  "\n";
- $email_body = $email_body . "Job Title: " . $JobTitle .  "\n";
- $email_body = $email_body . "Starting Date: " . $StartingDate .  "\n";
- $email_body = $email_body . "Duration: " . $duration .  "\n";
- $email_body = $email_body . "Job Description: " . $JobDescription .  "\n";
-$email_body = $email_body . "Skills Needed: " . $SkillsNeeded .  "\n";
+
+
+ $email_body = "CompanyName: " . $CompanyName . "\n";
+ $email_body .= "ContactPerson: " . $ContactPerson. "\n";
+ $email_body .= "Phone: " . $PhoneNumber . "\n";
+ $email_body .= "E-mail: " . $email . "\n";
+ $email_body .= "Number of Positions: " . $NofPositions .  "\n";
+ $email_body .= "Job Title: " . $JobTitle .  "\n";
+ $email_body .= "Starting Date: " . $StartingDate .  "\n";
+ $email_body .= "Duration: " . $duration .  "\n";
+ $email_body .= "Job Description: " . $JobDescription .  "\n";
+$email_body .= "Skills Needed: " . $SkillsNeeded .  "\n";
 $headers = "From: " . $email;
 
 //  if(empty($firstName)){
@@ -49,10 +50,11 @@ $headers = "From: " . $email;
  
 //amy@pplstaffing.com
 
-mail('amy@pplstaffing.com', 'Quote Form', $email_body, $headers);
-
-
-
-header('location: contact_thanks.php?e='.urlencode("ThankYou"));
+if (mail('chance@sodiumhalogen.com', 'Quote Form', $email_body, $headers)) {
+	header('location: contact_thanks.php?e='.urlencode("ThankYou"));
+} else {
+	$link = "javascript:history.back(1);";
+	header('location: formerror.php?link='.urlencode($link).'&e='.urlencode("Email was not sent. Try that again."));
+}
 
 ?>

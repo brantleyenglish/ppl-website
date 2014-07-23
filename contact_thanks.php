@@ -6,7 +6,6 @@
 <html dir="ltr" lang="en" class="no-js">
 <head>
 
-
 <?php include ('_inc/header.php'); ?>
 
 </head>
@@ -32,9 +31,9 @@
 
 		<article class="small-11 medium-8 columns data-sticky_column">
 			<h2>Thank you!</h2>
-			<p>Your email is sent! We'll be in contact shortly. </p>
-			<a href="#" class="button lt-button">See About Us</a>
-			<a href="#" class="button">See Locations</a>
+			<p>Your email is sent! We'll be in contact shortly.</p>
+			<a href="about.php" class="button lt-button">Learn About Us</a>
+			<a href="loactions.php" class="button">See Locations</a>
 		</article>
 	
 

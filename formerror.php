@@ -18,11 +18,6 @@
     <header class="header standard">
         <div class="row">
             <h1><?php echo $title; ?></h1>
-            <div id="something">
-            <a href="#" class="button">Post Job</a>
-            <a href="#"class="button">Apply for a Job</a>
-
-            </div>
         </div>
     </header>
 
@@ -35,7 +30,6 @@
 			<div class="row">
 				<div class="column medium-6">
 					<h2 >Opps! There was an error. </h2>
-
 				
 					<p>
 						<?php 
@@ -45,7 +39,7 @@
 						echo $_GET["e"];
 						?>
 					</p>
-					<a href="#" class="button lt-button" onclick="toggle_visibility('openModal');">Try Again</a>
+					<a href="<?php echo $_GET["link"] ?>" class="button lt-button" onclick="toggle_visibility('openModal');">Try Again</a>
 				</div>		
 				
 			</div>
