@@ -8,7 +8,18 @@ Apply for job, Personnel Placements, jobs, LLC, bpi packaging, pervision coils, 
 Employee Services, Employer Services" >
 
 <title><?php echo $title; ?> | PPL Staffing</title>
-
+	<!--
+		                      _                                      
+		 _| _ _. _  _  __ |_.(_. _   _ _  _ . _  _ _ _. _  _   |_    
+		(_|(-_)|(_)| )    |_|| |(_  (-| )(_)|| )(-(-| || )(_)  |_)\/ 
+		        _/                       _/               _/      /  
+		 ____            _ _                 _   _       _                        
+		/ ___|  ___   __| (_)_   _ _ __ ___ | | | | __ _| | ___   __ _  ___ _ __  
+		\___ \ / _ \ / _` | | | | | '_ ` _ \| |_| |/ _` | |/ _ \ / _` |/ _ \ '_ \ 
+		 ___) | (_) | (_| | | |_| | | | | | |  _  | (_| | | (_) | (_| |  __/ | | |
+		|____/ \___/ \__,_|_|\__,_|_| |_| |_|_| |_|\__,_|_|\___/ \__, |\___|_| |_|.com
+		                                                         |___/           
+	-->
 <link rel="stylesheet" href="_styles/reset.css" media="screen" />
 <link rel="stylesheet" href="_styles/style.css" media="screen" />
 <link rel="stylesheet" href="_styles/mobile_nav.css" media="screen" />
