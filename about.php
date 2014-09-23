@@ -62,7 +62,7 @@
 
 			<h3 id="Ben">Ben Ferguson- President </h3>
 			<div class="imgwrap">
-			<img src="http://www.pplstaffing.com/images/stories/Images/ben2.jpg" alt="ben ferguson">
+			<img src="_img/ben-ferguson.jpg" alt="ben ferguson" class="staffimg">
 			<a href="https://www.linkedin.com/profile/view?id=16040457&authType=OUT_OF_NETWORK&authToken=ba3O&locale=en_US&trk=tyah2&trkInfo=tarId%3A1404327801579%2Ctas%3Aben%20%2Cidx%3A2-1-2"><img src="_img/linkedin.png" class="linkedin" alt="linkedin"></a>
 			</div>
 			<p>Ben Ferguson serves as the President of Personnel Placements, LLC. Ben’s vision and focus as a business leader enable him to lead Personnel Placements in a positive and success-driven direction. He has proven himself to be a management professional with demonstrated success in operations, finance, human resources and sales.</p>
@@ -72,7 +72,7 @@
 			
 			<h3 id="Amy">Amy Scarbrough- Executive Vice-President</h3>
 			<div class="imgwrap">
-			<img src="http://www.pplstaffing.com/images/stories/Images/AMY-headshot-at-conf.jpg" alt="amy scarbrough">
+			<img src="_img/amy-scarbrough.jpg" alt="amy scarbrough" class="staffimg">
 			<a href="https://www.linkedin.com/profile/view?id=352659195&authType=OUT_OF_NETWORK&authToken=kMaq&locale=en_US&trk=tyah2&trkInfo=tarId%3A1404327883388%2Ctas%3Aamy%20scar%2Cidx%3A1-1-1"><img src="_img/linkedin.png" class="linkedin" alt="linkedin"></a>
 			</div>
 			<p>Amy Scarbrough has been with Personnel Placements since 2001 and has served as the Executive Vice-President since 2009. While at PPL, Amy has earned the business of both large and small clients with her consultative sales approach. Amy’s knowledge, dedication, and attention to detail continue to place PPL as the staffing provider of choice in Jackson, TN. Amy is responsible for developing and implementing PPL marketing plans as well as managing the sales effort in all PPL markets.</p>
