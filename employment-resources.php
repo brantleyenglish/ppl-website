@@ -78,7 +78,7 @@
                 <a href="https://www.linkedin.com/company/personnel-placements-llc?trk=top_nav_home" class="socialrollover" id="linkedin"><span>Linkedin</span></a>
             </div>
             <div class="large-3 columns">
-                <a href="http://www.careerbuilder.com" class="socialrollover" id="careerbuilder"><span>Career Builder</span></a>
+                <a href="http://www.careerbuilder.com/jobs/company/chp2gx6rwmb0kj1k500/personnel-placements-llc?APath=2.21.0.0.0&sc_cmp1=js_jrp_companydet&IPath=QHKV" class="socialrollover" id="careerbuilder"><span>Career Builder</span></a>
             </div>
         </div>
     </div>

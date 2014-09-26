@@ -32,7 +32,7 @@
     			<li><a href="http://www.facebook.com/pplstaffing">Facebook</a></li>
     			<li><a href="http://www.indeed.com/jobs?q=company%3A%28Personnel+Placements%29">Indeed</a></li>
     			<li><a href="https://www.linkedin.com/company/personnel-placements-llc?trk=top_nav_home">LinkedIn</a></li>
-    			<li><a href="http://www.careerbuilder.com/">Career Builder</a></li>
+    			<li><a href="http://www.careerbuilder.com/jobs/company/chp2gx6rwmb0kj1k500/personnel-placements-llc?APath=2.21.0.0.0&sc_cmp1=js_jrp_companydet&IPath=QHKV">Career Builder</a></li>
     		</ul>
     	</div>
     </div>
