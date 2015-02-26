@@ -158,6 +158,7 @@
 					Dyersburg, TN 38024<br /><br />
 					<ul>
 						<li>Phone: (731) 288-2883</li>
+						<li>Fax: (731) 325-5939</li>
 					</ul>
 					<h2>Hours</h2>
 					<ul>
@@ -187,7 +188,7 @@
 			<div class=" row loc">
 				<div class="small-11 medium-6 columns">
 					<h2 id="Lexington">Lexington TN</h2>
-					67C West Church St.<br />
+					106 A South Broad St.<br />
 					Lexington, TN 38351<br /><br />
 					<ul>
 						<li>Phone: (731) 602-9244</li>
@@ -243,7 +244,8 @@
 					1233 Manufacturers Row<br />
 					Trenton, TN 38382<br /><br />
 					<ul>
-						<li>Phone: Phone: (731) 470-4044</li>
+						<li>Phone: (731) 470-4044</li>
+						<li>Fax: (731) 418-4512</li>
 					</ul>
 					<h2>Hours</h2>
 					<ul>
