@@ -225,7 +225,7 @@
 					118 Rose St.<br />
 					Lobelville, TN 37097<br /><br />
 					<ul>
-						<li>Phone: Phone: (931) 209-9233</li>
+						<li>Phone: (931) 209-9233</li>
 					</ul>
 					<h2>Hours</h2>
 					<ul>
