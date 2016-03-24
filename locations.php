@@ -86,7 +86,7 @@
 			<div class="row loc">
 				<div class="small-11 medium-6 columns">
 					<h2 id="Milan">Milan TN</h2>
-					1051 Jones Blvd<br />
+					5027 South First Street<br />
 					Milan, TN 38358<br /><br />
 					<ul>
 						<li>Phone: (731) 686-2032</li>
@@ -98,7 +98,7 @@
 					</ul>
 				</div>
 				<div class="small-11 medium-6 columns">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3232.458751574692!2d-88.7515434!3d35.8867786!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x887c0060a9c9afa5%3A0xccc9b7b16221ddce!2s1051+Jones+Blvd!5e0!3m2!1sen!2sus!4v1403055019211" width="100%" height="294" frameborder="0" style="border:0"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=jackson,+tn&amp;aq=&amp;sll=35.648257,-88.838609&amp;sspn=0.489341,1.056747&amp;ie=UTF8&amp;hq=&amp;hnear=Jackson,+Madison,+Tennessee&amp;ll=35.648369,-88.838882&amp;spn=0.48955,1.056747&amp;t=m&amp;z=11" style="color:#f9c854;
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3233.0635249935112!2d-88.7469898487663!3d35.871960080052816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x887c00f96208c1c9%3A0x79cdc856696bda7d!2s5027+S+1st+St%2C+Milan%2C+TN+38358!5e0!3m2!1sen!2sus!4v1458836208806" width="100%" height="294" frameborder="0" style="border:0"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=jackson,+tn&amp;aq=&amp;sll=35.648257,-88.838609&amp;sspn=0.489341,1.056747&amp;ie=UTF8&amp;hq=&amp;hnear=Jackson,+Madison,+Tennessee&amp;ll=35.648369,-88.838882&amp;spn=0.48955,1.056747&amp;t=m&amp;z=11" style="color:#f9c854;
 ;text-align:left">View Larger Map</a></small>
 					<!-- <h2 class="services">Special Services</h2>
 					<ul>
