@@ -74,7 +74,12 @@
                     <input type="tel" placeholder="Phone" class="small-6 columns" name="phone" required="required">
                     <input type="email" placeholder="E-mail" class="small-6 columns" name="email" required="required">
                 </div>
+                <div class="row">
                     <input type="text" placeholder="Message" class="small-12 columns" name="message" required="required">
+                </div>
+                <div class="row">
+                    <div class="g-recaptcha" style="padding: 5px 0 5px 0;" data-sitekey="6LfabR0TAAAAALq55DmK9DEa7hz5RI0TbVKFECWB"></div></br>
+                </div>
                 <div class="row">
                     <input type="submit" value="submit" class="button small-12 columns" name="submit" >
                 </div>
