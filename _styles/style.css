@@ -1343,7 +1343,7 @@ input[type="text"] {
   -moz-border-radius: 4px;
   border-radius: 4px;
   height: 40px;
-  color: #777a81;
+  color: #777A81;
 }
 input[type="submit"] {
   -webkit-appearance: none;
@@ -1726,7 +1726,7 @@ body.mn {
 }
 .apply {
   height: 725px;
-  background: url(../_img/home_ill1_alt.jpg) center center no-repeat #f3f3f1;
+  background: url(../_img/home_ill1_alt.jpg) center center no-repeat #F3F3F1;
   padding-top: 55px;
   text-align: center;
 }
@@ -1777,7 +1777,7 @@ body.mn {
     height: auto;
     /*overflow: visible; //topher*/
     padding: 30px 0px;
-    background: url(../_img/home_ill1_alt.jpg) center center no-repeat #f3f3f1;
+    background: url(../_img/home_ill1_alt.jpg) center center no-repeat #F3F3F1;
     background-size: 200%;
   }
 }
@@ -1786,7 +1786,7 @@ body.mn {
     height: auto;
     min-height: 100px;
     padding: 30px 0px;
-    background: url(../_img/home_ill1_alt.jpg) center 100px no-repeat #f3f3f1;
+    background: url(../_img/home_ill1_alt.jpg) center 100px no-repeat #F3F3F1;
     background-size: 200%;
   }
 }
@@ -2180,7 +2180,7 @@ body.mn {
 }
 .opportunity {
   height: 620px;
-  background: url(../_img/home_ill2_alt.jpg) center center no-repeat #f3f3f1;
+  background: url(../_img/home_ill2_alt.jpg) center center no-repeat #F3F3F1;
   padding: 65px 0px;
 }
 .opportunity h1 {
@@ -2261,7 +2261,7 @@ body.mn {
     height: auto;
     min-height: 100px;
     overflow: visible;
-    background: url(../_img/home_ill2_alt.jpg) -30px 125px no-repeat #f3f3f1;
+    background: url(../_img/home_ill2_alt.jpg) -30px 125px no-repeat #F3F3F1;
     background-size: 200%;
     padding: 25px 0;
   }
@@ -2818,7 +2818,7 @@ body.mn {
 }
 .homepost {
   min-height: 628px;
-  background: url(../_img/home_ill3_alt.jpg) center center no-repeat #59c3d0;
+  background: url(../_img/home_ill3_alt.jpg) center center no-repeat #59C3D0;
   background-color: #59c3cf;
   padding: 65px 0px;
 }
@@ -2929,7 +2929,7 @@ body.mn {
   font-family: "freight-sans-pro", Helvetica, Arial, sans-serif;
   font-size: 18px;
   font-weight: 300;
-  color: #777a81;
+  color: #777A81;
   text-transform: uppercase;
   text-align: center;
 }
@@ -3387,6 +3387,11 @@ figure figcaption {
   text-indent: 5px;
   margin-bottom: 16px;
 }
+.inline-form select,
+.standard-form select,
+.horizontal-form select {
+  width: 100%;
+}
 .inline-form input[type='submit'],
 .standard-form input[type='submit'],
 .horizontal-form input[type='submit'] {
@@ -3633,7 +3638,7 @@ table td {
 .footer {
   background: #404451;
   padding: 68px 0 0 0;
-  color: #777a81;
+  color: #777A81;
   font-family: "freight-sans-pro", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -4025,7 +4030,7 @@ input[type="radio"] {
   border-bottom: 1px solid #484848;
 }
 #jPanelMenu-menu li a {
-  background: -moz-linear-gradient(center top, #3e3e3e, #383838) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  background: -moz-linear-gradient(center top, #3E3E3E, #383838) repeat scroll 0 0 rgba(0, 0, 0, 0);
   border-bottom: 1px solid #2E2E2E;
   border-top: 1px solid #484848;
   color: #F7F7F7;
@@ -4040,7 +4045,7 @@ input[type="radio"] {
   background: -moz-linear-gradient(center top, #484848, #383838) repeat scroll 0 0 rgba(0, 0, 0, 0);
 }
 #jPanelMenu-menu li a:active {
-  background: -moz-linear-gradient(center top, #3e3e3e, #2e2e2e) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  background: -moz-linear-gradient(center top, #3E3E3E, #2E2E2E) repeat scroll 0 0 rgba(0, 0, 0, 0);
   border-top-color: #222222;
   box-shadow: 0 2px 7px #222222 inset;
   padding-bottom: 0.45em;
@@ -4633,9 +4638,9 @@ input[type="radio"] {
   text-shadow: 1px 1px #838383;
   box-shadow: 0 1px 9px rgba(102, 102, 102, 0.65) inset;
   background: #ACACAC;
-  background-image: -webkit-linear-gradient(top, #acacac, #bbbbbb);
-  background-image: -moz-llinear-gradient(top, #acacac, #bbbbbb);
-  background-image: linear-gradient(to bottom, #acacac, #bbbbbb);
+  background-image: -webkit-linear-gradient(top, #ACACAC, #BBB);
+  background-image: -moz-llinear-gradient(top, #ACACAC, #BBB);
+  background-image: linear-gradient(to bottom, #ACACAC, #BBB);
 }
 /***************
 *

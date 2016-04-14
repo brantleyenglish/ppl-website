@@ -4,6 +4,7 @@
 <script type="text/javascript" src="_scripts/jquery.jpanelmenu.min.js"></script>
 <script type="text/javascript" src="_scripts/jquery.royalslider.min.js"></script>
 <script type="text/javascript" src="_scripts/enquire.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 <script type="text/javascript" src="_scripts/script.js" media="screen and (min-width: 600px)"></script>
 
 <script src="_scripts/jquery.sticky-kit.min.js"></script>
