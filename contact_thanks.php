@@ -39,7 +39,11 @@
 
 </section>
 
-
+<script>
+// Lead
+// Track when a user expresses interest in your offering (ex. form submission, sign up for trial, landing on pricing page)
+fbq('track', 'Lead');
+</script>
 
 
 <?php include ('_inc/footer.php'); ?>

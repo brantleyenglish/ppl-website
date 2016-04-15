@@ -15,7 +15,7 @@
 
     <header class='header standard'>
         <div class='row'>
-            <h1><?php echo "Reach Out"; ?></h1>
+            <h1><?php echo "Contact Us"; ?></h1>
             <div id="cta">
                 <a href="post-job.php" class="button">Post Job</a>
                 <a href="http://worldlink.pplstaffing.com/WL52PROD/main.aspx?action=Get&view=Home" class="button">Apply for a Job</a>
@@ -40,7 +40,6 @@
             <div class="row loc postJob">
                 <div class="small-11 medium-12 columns">
                     <h2>Looking for a position?</h2>
-                    <p>Reach out to us.</p>
 
                     <form action="./contact-form-process.php" method="post" class="inline-form">
                         <!-- <div class="row">
