@@ -17,6 +17,7 @@
     			<li><a href="employer.php">Employer Services</a></li>
     			<li><a href="locations.php">Locations</a></li>
     			<li><a href="about.php">About Us</a></li>
+                <li><a href="privacy-policy.php">Privacy Policy</a></li>
     		</ul>
     	</div>
     	<div class="medium-2 large-2 columns fnav">
