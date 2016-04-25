@@ -31,7 +31,8 @@ if ($response != null && $response->success) {
 	$JobDescription = $_POST["JobDescription"];
 	$SkillsNeeded = $_POST["SkillsNeeded"];
 
-	$email_body .= "CompanyName: " . $CompanyName . "\n";
+	// create email body
+	$email_body = "CompanyName: " . $CompanyName . "\n";
 	$email_body .= "ContactPerson: " . $ContactPerson. "\n";
 	$email_body .= "Phone: " . $PhoneNumber . "\n";
 	$email_body .= "E-mail: " . $email . "\n";
@@ -43,9 +44,31 @@ if ($response != null && $response->success) {
 	$email_body .= "Skills Needed: " . $SkillsNeeded .  "\n";
 	$headers = "From: " . $email;
 
+	// create wite to file html
+	$today = date("F j, Y, g:i a"); // get date
+	$html_body = "<ul><li>" . $today . "</li>";
+	$html_body .= "<li>CompanyName: " . $CompanyName . "</li>";
+	$html_body .= "<li>ContactPerson: " . $ContactPerson. "</li>";
+	$html_body .= "<li>Phone: " . $PhoneNumber . "</li>";
+	$html_body .= "<li>E-mail: " . $email . "</li>";
+	$html_body .= "<li>Number of Positions: " . $NofPositions .  "</li>";
+	$html_body .= "<li>Job Title: " . $JobTitle .  "</li>";
+	$html_body .= "<li>Starting Date: " . $StartingDate .  "</li>";
+	$html_body .= "<li>Duration: " . $duration .  "</li>";
+	$html_body .= "<li>Job Description: " . $JobDescription .  "</li>";
+	$html_body .= "<li>Skills Needed: " . $SkillsNeeded .  "</li>";
+	$html_body .= "</ul><hr><p></p>";
+
 	//amy@pplstaffing.com
 
 	if (mail('amy@pplstaffing.com', 'Employer Post Job Form', $email_body, $headers)) {
+		//write submission to file
+		$file = "submissions/form-subs-post-job.html";
+		$fp = fopen($file, "a") or die("Couldn't open $file for writing!");
+		fwrite($fp, $html_body) or die("Couldn't write values to file!");
+		// END write to file
+		
+		// thank you page
 		header('location: contact_thanks.php?e='.urlencode("ThankYou"));
 	} else {
 	$link = "javascript:history.back(1);";

@@ -61,7 +61,7 @@
                                 <h3>Name *</h3><input type="text" name="name" placeholder="First &amp; Last" tabindex="1" required>
                                 <h3>Phone *</h3><input type="text" name="phone" placeholder="(###)###-####" tabindex="3" required>
                                 <h3>Email *</h3><input type="email" name="email" placeholder="Email" tabindex="6" required>
-                                <h3>Location of interest</h3><select name="emailTo" id="emailTo" tabindex="5" cols="30">
+                                <h3>Location of interest</h3><select name="location" id="location" tabindex="5" cols="30">
                                     <option>Pick a city</option>
                                     <option value="Jackson">Jackson</option>
                                     <option value="Milan">Milan</option>

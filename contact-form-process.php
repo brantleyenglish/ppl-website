@@ -27,6 +27,7 @@ if ($response != null && $response->success) {
 	$location = $_POST["location"];
 	$message = $_POST["message"];
 
+	// create email body
 	$email_body = "Name: " . $name . "\n";
 	$email_body .= "Phone#: " . $phone. "\n";
 	$email_body .= "E-mail: " . $email . "\n";
@@ -35,11 +36,30 @@ if ($response != null && $response->success) {
 	$email_body .= "Message: " . $message .  "\n";
 	$headers = "From: " . $email;
 
+	// create wite to file html
+	$today = date("F j, Y, g:i a"); // get date
+	$html_body = "<ul><li>" . $today . "</li>";
+	$html_body .= "<li>Name: " . $name . "</li>";
+	$html_body .= "<li>Phone#: " . $phone. "</li>";
+	$html_body .= "<li>E-mail: " . $email . "</li>";
+	$html_body .= "<li>Location: " . $location . "</li>";
+	$html_body .= "<li>Intesreted in this Position: " . $interest .  "<br></li>";
+	$html_body .= "<li>Message: " . $message .  "</li>";
+	$html_body .= "</ul><hr><p></p>";
+
 	//amy@pplstaffing.com
 
 	if (mail('amy@pplstaffing.com', 'Contact for Position Form', $email_body, $headers)) {
+		//write submission to file
+		$file = "submissions/form-subs-contact.html";
+		$fp = fopen($file, "a") or die("Couldn't open $file for writing!");
+		fwrite($fp, $html_body) or die("Couldn't write values to file!");
+		// END write to file
+		
+		// thank you page
 		header('location: contact_thanks.php?e='.urlencode("ThankYou"));
 	} else {
+		//fail
 		$link = "javascript:history.back(1);";
 		header('location: formerror.php?link='.urlencode($link).'&e='.urlencode("Email was not sent. Try that again."));
 	}
