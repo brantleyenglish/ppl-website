@@ -62,15 +62,15 @@
                                 <h3>Phone *</h3><input type="text" name="phone" placeholder="(###)###-####" tabindex="3" required>
                                 <h3>Email *</h3><input type="email" name="email" placeholder="Email" tabindex="6" required>
                                 <h3>Location of interest</h3><select name="emailTo" id="emailTo" tabindex="5" cols="30">
-                                    <option value="">Pick a city</option>
-                                    <option value="tina">Jackson</option>
-                                    <option value="lea">Milan</option>
-                                    <option value="trey">Lexington</option>
-                                    <option value="chad">Dyersburg</option>
-                                    <option value="nancy">Memphis</option>
-                                    <option value="cindy">Trenton</option>
-                                    <!-- <option value="">Covington</option> -->
-                                    <option value="karin">Lobelville</option>
+                                    <option>Pick a city</option>
+                                    <option value="Jackson">Jackson</option>
+                                    <option value="Milan">Milan</option>
+                                    <option value="Lexington">Lexington</option>
+                                    <option value="Dyersburg">Dyersburg</option>
+                                    <option value="Memphis">Memphis</option>
+                                    <option value="Trenton">Trenton</option>
+                                    <option value="Covington">Covington</option>
+                                    <option value="Lobelville">Lobelville</option>
                                 </select></br>
                             </div>
                             <div class="medium-8 columns">

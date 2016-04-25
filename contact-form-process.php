@@ -24,19 +24,20 @@ if ($response != null && $response->success) {
 	$phone = $_POST["phone"];
 	$email = $_POST["email"];
 	$interest = $_POST["interest"];
-	$emailTo = $_POST["emailTo"] . "@pplstaffing.com";
+	$location = $_POST["location"];
 	$message = $_POST["message"];
 
 	$email_body = "Name: " . $name . "\n";
 	$email_body .= "Phone#: " . $phone. "\n";
 	$email_body .= "E-mail: " . $email . "\n";
+	$email_body .= "Location: " . $location . "\n";
 	$email_body .= "Intesreted in this Position: " . $interest .  "\n";
 	$email_body .= "Message: " . $message .  "\n";
 	$headers = "From: " . $email;
 
 	//amy@pplstaffing.com
 
-	if (mail($emailTo, 'Contact for Position Form', $email_body, $headers)) {
+	if (mail('amy@pplstaffing.com', 'Contact for Position Form', $email_body, $headers)) {
 		header('location: contact_thanks.php?e='.urlencode("ThankYou"));
 	} else {
 		$link = "javascript:history.back(1);";
