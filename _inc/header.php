@@ -1,6 +1,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="viewport" content="width=device-width" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <meta descripton="<?php echo $metaDescription; ?>">
 <meta keywords="PPL, Jackson, Tennessee, TN, Milan, Memphis, Dyersburg, Lexington, Lovelville, Trenton, Jobs,
 job search, staffing agency, jobs, apply for job, Ben Ferguson, Amy Scarbrough, Tim Melugin, Job Posting, 
