@@ -1517,7 +1517,6 @@ body.mn {
 }
 .header.home {
   position: relative;
-  margin-top: -96px;
   min-height: 700px;
   overflow: hidden;
   background: url(../_img/hero.jpg) center center;
