@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Password Protected Area | PPL"
+AuthUserFile /mnt/stor2-wc1-dfw1/393145/896445/www.pplstaffing.com/web/_secure/.htpasswd
+require valid-user
