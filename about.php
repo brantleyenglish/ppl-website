@@ -1,3 +1,4 @@
+<?php $page = basename($_SERVER['SCRIPT_NAME']); ?>
 <?php $title ="About Us"; ?>
 <?php $$metaDescription = "Learn about the expereince behind PPL and the leaders that are helping create and fill jobs in Tennessee."; ?>
 

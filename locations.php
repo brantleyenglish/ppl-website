@@ -1,3 +1,4 @@
+<?php $page = basename($_SERVER['SCRIPT_NAME']); ?>
 <?php $title ="Our Locations"; ?>
 <?php $$metaDescription = "Catch all of our locations available in Tennessee."; ?>
 

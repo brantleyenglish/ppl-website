@@ -1588,7 +1588,6 @@ body.mn {
 }
 .header.employer {
   position: relative;
-  margin-top: -96px;
   min-height: 700px;
   overflow: hidden;
   background: url(../_img/employers_hero.jpg) center center;
