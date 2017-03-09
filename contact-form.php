@@ -63,14 +63,17 @@
                                 <h3>Email *</h3><input type="email" name="email" placeholder="Email" tabindex="6" required>
                                 <h3>Location of interest</h3><select name="location" id="location" tabindex="5" cols="30">
                                     <option>Pick a city</option>
-                                    <option value="Jackson">Jackson</option>
-                                    <option value="Milan">Milan</option>
-                                    <option value="Lexington">Lexington</option>
-                                    <option value="Dyersburg">Dyersburg</option>
-                                    <option value="Memphis">Memphis</option>
-                                    <option value="Trenton">Trenton</option>
-                                    <option value="Covington">Covington</option>
-                                    <option value="Lobelville">Lobelville</option>
+                                    <option value="Blytheville">Blytheville, AR</option>
+                                    <option value="Marion">Marion, AR</option>
+                                    <option value="Osceola">Osceola, AR</option>
+                                    <option value="Bowling Green">Bowling Green, KY</option>
+                                    <option value="Covington">Covington, TN</option>
+                                    <option value="Dyersburg">Dyersburg, TN</option>
+                                    <option value="Jackson">Jackson, TN</option>
+                                    <option value="Lexington">Lexington, TN</option>
+                                    <option value="Memphis">Memphis, TN</option>
+                                    <option value="Milan">Milan, TN</option>
+                                    <option value="Trenton">Trenton, TN</option>
                                 </select></br>
                             </div>
                             <div class="medium-8 columns">
