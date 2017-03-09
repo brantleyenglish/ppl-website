@@ -287,17 +287,17 @@
 					415 West Keiser Street<br>
 					Osceola, AR 72370
 					<br /><br />
-					<ul>
+					<!-- <ul>
 						<li>Phone: (270) XXX-XXXX</li>
-						<!-- <li>Fax: (731) 418-4512</li> -->
-					</ul>
+						<li>Fax: (731) 418-4512</li>
+					</ul> -->
 					<h2>Hours</h2>
 					<ul>
 						<li>Monday - Friday 8:30 am - 5:00 pm</li>
 					</ul>
 				</div>
 				<div class="small-11 medium-6 columns">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3188.0535507567633!2d-86.47122558485567!3d36.96077786634398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8865e91a021cc941%3A0x6690516458409c81!2s2435+Nashville+Rd+%23109%2C+Bowling+Green%2C+KY+42101!5e0!3m2!1sen!2sus!4v1488319967988" width="100%" height="294" frameborder="0" style="border:0"></iframe><br /><small><a href="https://www.google.com/maps/place/2435+Nashville+Rd+%23109,+Bowling+Green,+KY+42101/@36.9607779,-86.4712256,17z/data=!3m1!4b1!4m5!3m4!1s0x8865e91a021cc941:0x6690516458409c81!8m2!3d36.9607736!4d-86.4690369" style="color:##f9c854;
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.170569485775!2d-89.97483568474078!3d35.697419980190574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x887f58580f420d19%3A0xe183383800c558e2!2s415+W+Keiser+Ave%2C+Osceola%2C+AR+72370!5e0!3m2!1sen!2sus!4v1489075671204" width="100%" height="294" frameborder="0" style="border:0" allowfullscreen></iframe><br /><small><a href="https://www.google.com/maps/place/2435+Nashville+Rd+%23109,+Bowling+Green,+KY+42101/@36.9607779,-86.4712256,17z/data=!3m1!4b1!4m5!3m4!1s0x8865e91a021cc941:0x6690516458409c81!8m2!3d36.9607736!4d-86.4690369" style="color:##f9c854;
 					;text-align:left">View Larger Map</a></small>
 				</div>
 				<div class="clear"> </div>
