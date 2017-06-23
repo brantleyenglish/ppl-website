@@ -34,42 +34,42 @@ $(document).ready(function(){
 		return false;
 	});
 	
-		$(document).scroll(function() {
-			if ( $(window).width() > 600 ) {
+	$(document).scroll(function() {
+		if ( $(window).width() > 600 ) {
 			if ($(window).scrollTop() > 400) {
-		        $('#l_arm1').addClass('bounceInLeft').delay(120).queue(function(next){
-				    $('#l_arm2').addClass('bounceInLeft').delay(120).queue(function(next){
-					    $('#l_arm3').addClass('bounceInLeft');
-					    next();
+				$('#l_arm1').addClass('bounceInLeft').delay(120).queue(function(next){
+					$('#l_arm2').addClass('bounceInLeft').delay(120).queue(function(next){
+						$('#l_arm3').addClass('bounceInLeft');
+						next();
 					});
-				    next();
+					next();
 				});
 				$('#r_arm1').addClass('bounceInRight').delay(30).queue(function(next){
-				    $('#r_arm2').addClass('bounceInRight').delay(140).queue(function(next){
-					    $('#r_arm3').addClass('bounceInRight');
-					    next();
+					$('#r_arm2').addClass('bounceInRight').delay(140).queue(function(next){
+						$('#r_arm3').addClass('bounceInRight');
+						next();
 					});
-				    next();
+					next();
 				});
-		    }
-
-		    if ($(window).scrollTop() > 2100) {
-		        $("#arm").addClass('bounceInUp');
-		    }
-		     if ($(window).scrollTop() > 1200) {
-		        $("#letter").addClass('bounceInLeft');
-		    }
-		    if ($(window).scrollTop() > 1500) {
-		        $("#letter").addClass('bounceInLeft');
-		    }
-		    if ($(window).scrollTop() > 700) {
-		        $(".stats1").addClass('bounceInRight');
-		    }
-		    if ($(window).scrollTop() > 700) {
-		        $(".stats2").addClass('bounceInRight');
-		    }
 			}
-		});
+
+			if ($(window).scrollTop() > 2100) {
+				$("#arm").addClass('bounceInUp');
+			}
+			if ($(window).scrollTop() > 1200) {
+				$("#letter").addClass('bounceInLeft');
+			}
+			if ($(window).scrollTop() > 1500) {
+				$("#letter").addClass('bounceInLeft');
+			}
+			if ($(window).scrollTop() > 700) {
+				$(".stats1").addClass('bounceInRight');
+			}
+			if ($(window).scrollTop() > 700) {
+				$(".stats2").addClass('bounceInRight');
+			}
+		}
+	});
 	
 
 
@@ -94,16 +94,16 @@ $(document).ready(function(){
     		pauseOnHover: true,
     		delay: 4500
     	}
-	});  
+    });  
 	
 	
 	// // DESKTOP ANIMATIONS
 	// enquire.register("screen and (min-width: 769px)", {
-	
+		
 	//     // OPTIONAL
 	//     // If supplied, triggered when a media query matches.
 	//     match : function() {
-	    
+		
 	// 		$(document).scroll(function() {
 	// 		    if ($(window).scrollTop() > 2100) {
 	// 		        $("#arm").animate({bottom:0},1000);
@@ -129,19 +129,19 @@ $(document).ready(function(){
 	// 		        $(".stats2").animate({left:0},1000);
 	// 		    }
 	// 		});
-			
+	
 	//     }    
-	                                
+	
 	// });
 	
 	
 	// // TABLET ANIMATIONS
 	// enquire.register("screen and (max-width: 768px) and (min-width: 601px)", {
-	
+		
 	//     // OPTIONAL
 	//     // If supplied, triggered when a media query matches.
 	//     match : function() {
-	    
+		
 	// 		$(document).scroll(function() {
 	// 		    if ($(window).scrollTop() > 400) {
 	// 		        $("#l_arm1").animate({left:-1145},1100);
@@ -166,16 +166,16 @@ $(document).ready(function(){
 	// 		document.getElementById('testBlock').style.display = 'none';
 	
 	//     }      
-	                                
+	
 	// });
 	
 	// // SMALL DEVICE ANIMATIONS
 	// enquire.register("screen and (max-width: 600px)", {
-	
+		
 	//     // OPTIONAL
 	//     // If supplied, triggered when a media query matches.
 	//     match : function() {
-	    
+		
 	// 		$(document).scroll(function() {
 	// 		    if ($(window).scrollTop() > 300) {
 	// 		        $("#l_arm1").animate({left:-510},1100);
@@ -186,19 +186,19 @@ $(document).ready(function(){
 	// 		        $("#r_arm3").animate({right:-500},1100);
 	// 		    }
 	// 		});
-			
+	
 	// 		$(document).scroll(function() {
 	// 		    if ($(window).scrollTop() > 2500) {
 	// 		        $("#arm").animate({bottom:266},600);
 	// 		    }
 	// 		});
-			
+	
 	// 		$(document).scroll(function() {
 	// 		    if ($(window).scrollTop() > 300) {
 	// 		        $("#arm2").animate({bottom:266},600);
 	// 		    }
 	// 		});
-			
+	
 	// 		$(document).scroll(function() {
 	// 		    if ($(window).scrollTop() > 1800) {
 	// 		        $("#letter").animate({left:30},800);
@@ -209,8 +209,13 @@ $(document).ready(function(){
 	// 		document.getElementById('testBlock').style.display = 'none';
 	
 	//     }      
-	                                
+	
 	// });
 
 });
 
+	// google map no scroll script until click
+	$('.overlaymap iframe').css("pointer-events","none");
+	$('.overlaymap').click(function () {
+		$('.overlaymap iframe').css("pointer-events", "auto");
+	});
