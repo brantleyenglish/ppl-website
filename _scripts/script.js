@@ -219,3 +219,14 @@ $(document).ready(function(){
 	$('.overlaymap').click(function () {
 		$('.overlaymap iframe').css("pointer-events", "auto");
 	});
+
+	// anchor links animation
+	$('a[href^="#"]').on('click', function(event) {
+		var target = $(this.getAttribute('href'));
+		if( target.length ) {
+			event.preventDefault();
+			$('html, body').stop().animate({
+				scrollTop: target.offset().top
+			}, 1000);
+		}
+	});
