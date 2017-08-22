@@ -28,14 +28,14 @@
     <div class="row">
 
         <aside class="small-11 medium-3 columns data-sticky_column">
-            
+
 
             <div class="contact-us">
                 <p>Contact us today to schedule an appointment.</p>
                 <a href="#" onclick="toggle_visibility('openModal');" class="button">Contact Us</a>
             </div>
         </aside>
-        
+
         <article class="small-12 medium-9 columns">
             <div class="row loc postJob">
                 <div class="small-11 medium-12 columns">
@@ -48,12 +48,12 @@
                                 <h3>Contact Person *</h3><input type="text" name="ContactPerson" placeholder="Contact Person" tabindex="4" required>
                             </div>
                             <div class="medium-4 columns">
-                                <h3>Phone Number*</h3><input type="tel" name="PhoneNumber" placeholder="(###) ###-####" tabindex="2" required> 
+                                <h3>Phone Number*</h3><input type="tel" name="PhoneNumber" placeholder="(###) ###-####" tabindex="2" required>
                                 <h3>E-mail *</h3><input type="text" name="email" placeholder="example@gmail.com" tabindex="5" required>
                             </div>
                             <div class="medium-4 columns">
                                 <h3>Number of Positions *</h3><input type="text" name="NofPositions" placeholder="#" tabindex="3" required>
-                                <h3>Job Title *</h3><input type="text" name="JobTitle" placeholder="JobTitle" tabindex="6" required>    
+                                <h3>Job Title *</h3><input type="text" name="JobTitle" placeholder="JobTitle" tabindex="6" required>
                             </div>
                         </div> -->
                         <div class="row">
@@ -64,15 +64,16 @@
                                 <h3>Location of interest</h3><select name="location" id="location" tabindex="5" cols="30">
                                     <option>Pick a city</option>
                                     <option value="Blytheville">Blytheville, AR</option>
-                                    <option value="Marion">Marion, AR</option>
-                                    <option value="Osceola">Osceola, AR</option>
                                     <option value="Bowling Green">Bowling Green, KY</option>
                                     <option value="Covington">Covington, TN</option>
                                     <option value="Dyersburg">Dyersburg, TN</option>
                                     <option value="Jackson">Jackson, TN</option>
                                     <option value="Lexington">Lexington, TN</option>
+                                    <option value="Marion">Marion, AR</option>
                                     <option value="Memphis">Memphis, TN</option>
                                     <option value="Milan">Milan, TN</option>
+                                    <option value="Olive Branch">Olive Branch, MS</option>
+                                    <option value="Osceola">Osceola, AR</option>
                                     <option value="Trenton">Trenton, TN</option>
                                 </select></br>
                             </div>
@@ -87,10 +88,10 @@
                 </div>
             </div>
         </article>
-    
+
     </div>
-        
-    
+
+
 </section>
 
 

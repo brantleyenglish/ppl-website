@@ -1,4 +1,4 @@
-<?php 
+<?php
 error_reporting(E_ALL);
 error_reporting(-1);
 
@@ -48,14 +48,17 @@ if ($response != null && $response->success) {
 	$html_body .= "</ul><hr><p></p>";
 
 	//amy@pplstaffing.com
+	$emailTo = 'amy@pplstaffing.com';
+	if($location == 'live Branch')
+		$emailTo = 'tgreen@pplstaffing.com ';
 
-	if (mail('amy@pplstaffing.com', 'Contact for Position Form', $email_body, $headers)) {
+	if (mail($emailTo, 'Contact for Position Form', $email_body, $headers)) {
 		//write submission to file
 		$file = "submissions/form-subs-contact.html";
 		$fp = fopen($file, "a") or die("Couldn't open $file for writing!");
 		fwrite($fp, $html_body) or die("Couldn't write values to file!");
 		// END write to file
-		
+
 		// thank you page
 		header('location: contact_thanks.php?e='.urlencode("ThankYou"));
 	} else {
