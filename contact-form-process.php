@@ -49,8 +49,8 @@ if ($response != null && $response->success) {
 
 	//amy@pplstaffing.com
 	$emailTo = 'amy@pplstaffing.com';
-	if($location == 'live Branch')
-		$emailTo = 'tgreen@pplstaffing.com ';
+	if($location == 'Olive Branch')
+		$emailTo = 'tgreen@pplstaffing.com';
 
 	if (mail($emailTo, 'Contact for Position Form', $email_body, $headers)) {
 		//write submission to file
