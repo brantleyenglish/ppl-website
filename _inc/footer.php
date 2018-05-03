@@ -40,7 +40,7 @@
     <div class="bottom-info">
     	<div class="row">
 	    	<div class="medium-6 large-6 columns copyright">
-	    		<p>2014 Personnel Placements, LLC. Site by <a href="http://sodiumhalogen.com">Sodium Halogen</a></p>
+	    		<p><?php echo date("Y"); ?> Personnel Placements, LLC. Site by <a href="http://sodiumhalogen.com">Sodium Halogen</a></p>
 	    	</div>
 	    	<div class="medium-6 large-6 columns">
 	    		<form action="//pplstaffing.us8.list-manage.com/subscribe/post?u=e5bde3535a4e1be0ea4cf87f8&amp;id=a97cf849e5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -63,7 +63,7 @@
 </footer>
 <div id="openModal" class="modalDialog" >
     <div class="modal">
-       <a href="#" title="Close" class="close" onclick="toggle_visibility('openModal');">X</a> 
+       <a href="#" title="Close" class="close" onclick="toggle_visibility('openModal');">X</a>
 
         <h2>Contact us</h2>
             <form  action="modal-form-processor.php" method="post" class="inline-form">
@@ -85,16 +85,16 @@
                     <input type="submit" value="submit" class="button small-12 columns" name="submit" >
                 </div>
             </form>
-  
+
     </div>
 </div>
 
 <script>
 
         (function($) {
-            
+
           var allPanels = $('.accordion > dd').hide();
-            
+
           $('.accordion > dt > a').click(function() {
             allPanels.slideUp();
             $(this).parent().next().slideDown();
