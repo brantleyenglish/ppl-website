@@ -7,13 +7,13 @@
 <head>
 
 
-	<?php include ('_inc/header.php'); ?>
+	<?php include('_inc/header.php'); ?>
 
 </head>
 <body class="sub about">
 	<!-- begin markup -->
 
-	<?php include ('_inc/nav.php'); ?>
+	<?php include('_inc/nav.php'); ?>
 
 	<header class='header standard'>
 		<div class='row'>
@@ -131,7 +131,7 @@
 			<div class=" row loc">
 				<div class="small-11 medium-6 columns">
 					<h2 id="Memphis">Memphis TN</h2>
-					4273 Cherry Center Drive<br />
+					3884 S. Perkins Cutoff Rd.<br />
 					Memphis, TN<br /><br />
 					<ul>
 						<li>Phone: (901) 363-5918</li>
@@ -143,7 +143,7 @@
 					</ul>
 				</div>
 				<div class="small-11 medium-6 columns overlaymap">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3265.3156172512076!2d-89.921352!3d35.073845999999996!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x887f85d73ada8291%3A0x6fcfb17508009e31!2s4273+Cherry+Center+Dr!5e0!3m2!1sen!2sus!4v1403055096345" width="100%" height="294" frameborder="0" style="border:0"></iframe><br /><small><a href="https://www.google.com/maps?ll=35.073846,-89.921352&z=16&t=m&hl=en-US&gl=US&mapclient=embed&q=4273+Cherry+Center+Dr+Memphis,+TN+38118" style="color:#f9c854;
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3266.565861071337!2d-89.91088348480176!3d35.0425892803482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x887f85f4916184e5%3A0xffff153b471738a2!2s3884+S+Perkins+Rd%2C+Memphis%2C+TN+38118!5e0!3m2!1sen!2sus!4v1539793199713" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe><br /><small><a href="https://www.google.com/maps/place/3884+S+Perkins+Rd,+Memphis,+TN+38118/@35.0425893,-89.9108835,17z/data=!3m1!4b1!4m8!1m2!2m1!1s3884+S.+Perkins+Cutoff+Rd.+Memphis,+TN!3m4!1s0x887f85f4916184e5:0xffff153b471738a2!8m2!3d35.0425893!4d-89.9086948" style="color:#f9c854;
 					;text-align:left">View Larger Map</a></small>
 					<!-- <h2 class="services">Special Services</h2>
 					<ul>
@@ -437,9 +437,9 @@
 </section>
 
 
-<?php include ('_inc/footer.php'); ?>
+<?php include('_inc/footer.php'); ?>
 
-<?php include ('_inc/scripts.php'); ?>
+<?php include('_inc/scripts.php'); ?>
 
 
 </body>
