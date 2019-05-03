@@ -41,7 +41,7 @@
 						<li><a href="#Lobelville">Lobelville TN</a></li>
 						<li><a href="#Trenton">Trenton TN</a></li>
 						<li><a href="#Bowling-Green">Bowling Green KY</a></li>
-						<li><a href="#Osceola">Osceola, AR</a></li>
+						<li><a href="#Union City">Union City TN</a></li>
 						<li><a href="#Covington">Covington, TN</a></li>
 						<li><a href="#Selmer">Selmer, TN</a></li>
 						<li><a href="#Byhalia">Byhalia, MS</a></li>
@@ -303,12 +303,12 @@
 			<!-- Osceola -->
 			<div class=" row loc">
 				<div class="small-11 medium-6 columns">
-					<h2 id="Osceola">Osceola, AR</h2>
-					415 West Keiser Street<br>
-					Osceola, AR 72370
+					<h2 id="Union City">Union City, TN</h2>
+					709 South 1st Street<br>
+					Union City, TN
 					<br /><br />
 					<!-- <ul>
-						<li>Phone: (270) XXX-XXXX</li>
+						<li>Phone: (731) 574-2236</li>
 						<li>Fax: (731) 418-4512</li>
 					</ul> -->
 					<h2>Hours</h2>
