@@ -38,13 +38,11 @@
 						<li><a href="#Memphis">Memphis TN</a></li>
 						<li><a href="#Dyersburg">Dyersburg TN</a></li>
 						<li><a href="#Lexington">Lexington TN</a></li>
-						<li><a href="#Lobelville">Lobelville TN</a></li>
 						<li><a href="#Trenton">Trenton TN</a></li>
 						<li><a href="#Bowling-Green">Bowling Green KY</a></li>
 						<li><a href="#Union City">Union City TN</a></li>
 						<li><a href="#Covington">Covington, TN</a></li>
 						<li><a href="#Selmer">Selmer, TN</a></li>
-						<li><a href="#Byhalia">Byhalia, MS</a></li>
 					</ul>
 				</nav>
 
@@ -235,27 +233,6 @@
 				</div> -->
 			</div>
 
-			<!-- Lobelville -->
-			<div class=" row loc">
-				<div class="small-11 medium-6 columns">
-					<h2 id="Lobelville">Lobelville TN</h2>
-					118 Rose St.<br />
-					Lobelville, TN 37097<br /><br />
-					<ul>
-						<li>Phone: (931) 209-9233</li>
-					</ul>
-					<h2>Hours</h2>
-					<ul>
-						<li>Monday - Friday 8:30 am - 5:00 pm</li>
-					</ul>
-				</div>
-				<div class="small-11 medium-6 columns overlaymap">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3237.212915588133!2d-87.78671629999998!3d35.77014589999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x887ca39b3451e38b%3A0xb5ceb8d5bdf04a93!2s118+Rose+St!5e0!3m2!1sen!2sus!4v1404150522757" width="100%" height="294" frameborder="0" style="border:0"></iframe><br /><small><a href="https://www.google.com/maps?ll=35.770145,-87.78677&z=16&t=m&hl=en-US&gl=US&mapclient=embed&q=118+Rose+St+Lobelville,+TN+37097" style="color:##f9c854;
-					;text-align:left">View Larger Map</a></small>
-				</div>
-				<div class="clear"> </div>
-			</div>
-
 			<!-- Trenton -->
 			<div class=" row loc">
 				<div class="small-11 medium-6 columns">
@@ -394,41 +371,6 @@
 				</div> -->
 			</div>
 
-			<!-- Byhalia -->
-			<div class="row loc">
-				<div class="small-11 medium-6 columns">
-					<h2 id="Byhalia">Byhalia MS</h2>
-					28 Chase St., Suite D<br />
-					Byhalia, MS 38611<br /><br />
-					<ul>
-						<li>Phone: (662) 205-3652</li>
-						<li>Fax: (662) 601-4006</li>
-					</ul>
-					<h2>Hours</h2>
-					<ul>
-						<li>Monday - Friday 8:30 am - 5:00 pm</li>
-					</ul>
-				</div>
-				<div class="small-11 medium-6 columns overlaymap">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3273.3071542568377!2d-89.70276373318113!3d34.87363259019526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x887f955805caf981%3A0x64e370ae5766c758!2s28+Chase+St+d%2C+Byhalia%2C+MS+38611!5e0!3m2!1sen!2sus!4v1498228930905" width="100%" height="294" frameborder="0" style="border:0" allowfullscreen></iframe><br /><small><a href="https://www.google.com/maps/place/28+Chase+St+d,+Byhalia,+MS+38611/@34.8736326,-89.7027637,17z/data=!3m1!4b1!4m5!3m4!1s0x887f955805caf981:0x64e370ae5766c758!8m2!3d34.8736326!4d-89.7012161" style="color:#f9c854;
-					;text-align:left">View Larger Map</a></small>
-					<!-- <h2 class="services">Special Services</h2>
-					<ul>
-						<li>Service 1</li>
-						<li>Service 2</li>
-						<li>Service 3</li>
-						<li>Service 4</li>
-						<li>Service 5</li>
-					</ul> --> 
-				</div>
-				<div class="clear"> </div>
-				<!-- <div class="small-5 medium-6 columns">
-					<img src="_img/office.jpg" />
-				</div>
-				<div class="small-5 medium-6 columns">
-					<img src="_img/office.jpg" />
-				</div> -->
-			</div>
 		</article>
 
 	</div>
